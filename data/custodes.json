@@ -1274,8 +1274,8 @@
       },
       "baseSize": {
         "shape": "oval",
-        "mm": 90,
-        "mmMinor": 52
+        "mm": 75,
+        "mmMinor": 42
       },
       "modelCountOptions": [
         1
@@ -1767,8 +1767,8 @@
       },
       "baseSize": {
         "shape": "oval",
-        "mm": 90,
-        "mmMinor": 52
+        "mm": 75,
+        "mmMinor": 42
       },
       "modelCountOptions": [
         2,
@@ -2138,7 +2138,11 @@
         "Custodian Guard",
         "Infantry",
         "Imperium"
-      ]
+      ],
+      "baseSize": {
+        "shape": "round",
+        "mm": 40
+      }
     },
     {
       "id": "sagittarum-custodians",
@@ -2224,7 +2228,7 @@
       },
       "baseSize": {
         "shape": "round",
-        "mm": 40
+        "mm": 50
       },
       "modelCountOptions": [
         3,
@@ -2384,9 +2388,8 @@
         "4": 450
       },
       "baseSize": {
-        "shape": "oval",
-        "mm": 90,
-        "mmMinor": 52
+        "shape": "round",
+        "mm": 60
       },
       "modelCountOptions": [
         3,
@@ -2520,7 +2523,7 @@
       },
       "baseSize": {
         "shape": "round",
-        "mm": 32
+        "mm": 40
       },
       "modelCountOptions": [
         3,
@@ -2918,8 +2921,8 @@
       },
       "baseSize": {
         "shape": "oval",
-        "mm": 120,
-        "mmMinor": 92
+        "mm": 170,
+        "mmMinor": 109
       },
       "modelCountOptions": [
         1
@@ -3029,7 +3032,7 @@
       },
       "baseSize": {
         "shape": "round",
-        "mm": 60
+        "mm": 100
       },
       "modelCountOptions": [
         1
@@ -3142,8 +3145,8 @@
       },
       "baseSize": {
         "shape": "oval",
-        "mm": 120,
-        "mmMinor": 92
+        "mm": 170,
+        "mmMinor": 109
       },
       "modelCountOptions": [
         1
@@ -3331,7 +3334,11 @@
         "Fly",
         "Imperium",
         "Orion Assault Dropship"
-      ]
+      ],
+      "baseSize": {
+        "shape": "round",
+        "mm": 160
+      }
     },
     {
       "id": "ares-gunship",
@@ -3416,7 +3423,11 @@
         "Fly",
         "Imperium",
         "Ares Gunship"
-      ]
+      ],
+      "baseSize": {
+        "shape": "round",
+        "mm": 160
+      }
     }
   ],
   "coreStratagems": [
