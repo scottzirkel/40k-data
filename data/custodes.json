@@ -84,7 +84,7 @@
       "points": {
         "2": 110,
         "3": 165,
-        "4": 275,
+        "5": 275,
         "6": 330
       },
       "baseSize": {
@@ -94,7 +94,7 @@
       "modelCountOptions": [
         2,
         3,
-        4,
+        5,
         6
       ],
       "stats": {
@@ -623,14 +623,16 @@
       "bsdataId": "9610-b148-8433-93b8",
       "name": "Custodian Wardens",
       "points": {
-        "4": 210
+        "4": 210,
+        "5": 260
       },
       "baseSize": {
         "shape": "round",
         "mm": 40
       },
       "modelCountOptions": [
-        4
+        4,
+        5
       ],
       "stats": {
         "m": 6,
@@ -839,9 +841,6 @@
       "points": {
         "4": 40,
         "5": 50,
-        "6": 75,
-        "7": 75,
-        "8": 75,
         "9": 75,
         "10": 85
       },
@@ -852,9 +851,6 @@
       "modelCountOptions": [
         4,
         5,
-        6,
-        7,
-        8,
         9,
         10
       ],
@@ -1881,9 +1877,6 @@
       "points": {
         "4": 45,
         "5": 55,
-        "6": 90,
-        "7": 90,
-        "8": 90,
         "9": 90,
         "10": 100
       },
@@ -1894,9 +1887,6 @@
       "modelCountOptions": [
         4,
         5,
-        6,
-        7,
-        8,
         9,
         10
       ],
@@ -1948,9 +1938,6 @@
       "points": {
         "4": 45,
         "5": 55,
-        "6": 90,
-        "7": 90,
-        "8": 90,
         "9": 90,
         "10": 100
       },
@@ -1961,9 +1948,6 @@
       "modelCountOptions": [
         4,
         5,
-        6,
-        7,
-        8,
         9,
         10
       ],
@@ -2149,14 +2133,14 @@
       "bsdataId": "6f9f-e6aa-ba13-aab1",
       "name": "Sagittarum Custodians",
       "points": {
-        "1": 225
+        "5": 225
       },
       "baseSize": {
         "shape": "round",
         "mm": 40
       },
       "modelCountOptions": [
-        1
+        5
       ],
       "stats": {
         "m": 6,
@@ -2224,7 +2208,7 @@
       "name": "Aquilon Custodians",
       "points": {
         "3": 195,
-        "4": 390
+        "6": 390
       },
       "baseSize": {
         "shape": "round",
@@ -2232,7 +2216,7 @@
       },
       "modelCountOptions": [
         3,
-        4
+        6
       ],
       "stats": {
         "m": 5,
@@ -2385,7 +2369,7 @@
       "name": "Agamatus Custodians",
       "points": {
         "3": 225,
-        "4": 450
+        "6": 450
       },
       "baseSize": {
         "shape": "round",
@@ -2393,7 +2377,7 @@
       },
       "modelCountOptions": [
         3,
-        4
+        6
       ],
       "stats": {
         "m": 12,
@@ -2519,7 +2503,7 @@
       "name": "Venatari Custodians",
       "points": {
         "3": 165,
-        "4": 330
+        "6": 330
       },
       "baseSize": {
         "shape": "round",
@@ -2527,7 +2511,7 @@
       },
       "modelCountOptions": [
         3,
-        4
+        6
       ],
       "stats": {
         "m": 10,
