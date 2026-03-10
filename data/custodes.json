@@ -4287,8 +4287,8 @@
               ]
             },
             {
-              "id": "dirgesinger-psychic",
-              "name": "Dirgesinger",
+              "id": "psychic-tempest",
+              "name": "Psychic Tempest",
               "type": "ranged",
               "stats": {
                 "range": 18,
