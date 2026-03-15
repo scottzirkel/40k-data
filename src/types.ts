@@ -379,6 +379,8 @@ export interface AllyFaction {
 export interface ArmyData {
   faction: string;
   lastUpdated: string;
+  /** Parent faction ID whose units this army also has access to (e.g., "spacemarines") */
+  parentFaction?: string;
   // BSData metadata for .rosz export
   catalogueId?: string; // BSData catalogue ID (e.g., "1f19-6509-d906-ca10")
   gameSystemId?: string; // BSData game system ID (e.g., "sys-352e-adc2-7639-d6a9")
