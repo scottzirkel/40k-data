@@ -1076,6 +1076,7 @@
           "name": "Ranged Weapon",
           "type": "choice",
           "pattern": "replacement",
+          "maxNonDefaultPerModels": { "max": 1, "per": 5 },
           "choices": [
             {
               "id": "storm-bolter",
@@ -1084,23 +1085,19 @@
             },
             {
               "id": "assault-cannon",
-              "name": "Assault Cannon",
-              "maxModels": 1
+              "name": "Assault Cannon"
             },
             {
               "id": "heavy-flamer",
-              "name": "Heavy Flamer",
-              "maxModels": 1
+              "name": "Heavy Flamer"
             },
             {
               "id": "plasma-cannon",
-              "name": "Plasma Cannon",
-              "maxModels": 1
+              "name": "Plasma Cannon"
             },
             {
               "id": "cyclone-missile",
-              "name": "Cyclone Missile Launcher + Storm Bolter",
-              "maxModels": 1
+              "name": "Cyclone Missile Launcher + Storm Bolter"
             }
           ]
         },

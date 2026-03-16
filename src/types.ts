@@ -92,6 +92,8 @@ export interface LoadoutOption {
   type: LoadoutOptionType;
   pattern: LoadoutPattern;
   choices: LoadoutChoice[];
+  /** Cap total non-default choices per N models. E.g. { max: 1, per: 5 } = 1 heavy weapon per 5 models */
+  maxNonDefaultPerModels?: { max: number; per: number };
 }
 
 // ============================================================================
