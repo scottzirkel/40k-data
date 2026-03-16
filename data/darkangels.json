@@ -889,7 +889,7 @@
           "abilities": [
             "Rapid Fire 2"
           ],
-          "loadoutGroup": "storm-bolter-power-fist"
+          "loadoutGroup": "storm-bolter"
         },
         {
           "id": "assault-cannon-ranged",
@@ -906,7 +906,7 @@
           "abilities": [
             "Devastating Wounds"
           ],
-          "loadoutGroup": "heavy-assault-cannon"
+          "loadoutGroup": "assault-cannon"
         },
         {
           "id": "heavy-flamer-ranged",
@@ -941,7 +941,7 @@
           "abilities": [
             "Blast"
           ],
-          "loadoutGroup": "heavy-plasma-cannon"
+          "loadoutGroup": "plasma-cannon"
         },
         {
           "id": "plasma-cannon-supercharge-ranged",
@@ -959,7 +959,7 @@
             "Blast",
             "Hazardous"
           ],
-          "loadoutGroup": "heavy-plasma-cannon"
+          "loadoutGroup": "plasma-cannon"
         },
         {
           "id": "cyclone-missile-launcher-frag-ranged",
@@ -976,7 +976,7 @@
           "abilities": [
             "Blast"
           ],
-          "loadoutGroup": "heavy-cyclone"
+          "loadoutGroup": "cyclone-missile"
         },
         {
           "id": "cyclone-missile-launcher-krak-ranged",
@@ -991,7 +991,7 @@
             "d": "D6"
           },
           "abilities": [],
-          "loadoutGroup": "heavy-cyclone"
+          "loadoutGroup": "cyclone-missile"
         },
         {
           "id": "power-fist-melee",
@@ -1005,7 +1005,7 @@
             "d": 2
           },
           "abilities": [],
-          "loadoutGroup": "storm-bolter-power-fist"
+          "loadoutGroup": "power-fist"
         },
         {
           "id": "power-weapon-melee",
@@ -1035,7 +1035,7 @@
           "abilities": [
             "Anti-Vehicle 4+"
           ],
-          "loadoutGroup": "storm-bolter-chainfist"
+          "loadoutGroup": "chainfist"
         }
       ],
       "abilities": [
@@ -1072,35 +1072,18 @@
       ],
       "loadoutOptions": [
         {
-          "id": "main-weapon",
-          "name": "Melee Weapon",
+          "id": "ranged-weapon",
+          "name": "Ranged Weapon",
           "type": "choice",
           "pattern": "replacement",
           "choices": [
             {
-              "id": "storm-bolter-power-fist",
-              "name": "Storm Bolter + Power Fist",
+              "id": "storm-bolter",
+              "name": "Storm Bolter",
               "default": true
             },
             {
-              "id": "storm-bolter-chainfist",
-              "name": "Storm Bolter + Chainfist"
-            }
-          ]
-        },
-        {
-          "id": "heavy-weapon",
-          "name": "Heavy Weapon",
-          "type": "optional",
-          "pattern": "replacement",
-          "choices": [
-            {
-              "id": "none",
-              "name": "None",
-              "default": true
-            },
-            {
-              "id": "heavy-assault-cannon",
+              "id": "assault-cannon",
               "name": "Assault Cannon",
               "maxModels": 1
             },
@@ -1110,14 +1093,31 @@
               "maxModels": 1
             },
             {
-              "id": "heavy-plasma-cannon",
+              "id": "plasma-cannon",
               "name": "Plasma Cannon",
               "maxModels": 1
             },
             {
-              "id": "heavy-cyclone",
-              "name": "Cyclone Missile Launcher",
+              "id": "cyclone-missile",
+              "name": "Cyclone Missile Launcher + Storm Bolter",
               "maxModels": 1
+            }
+          ]
+        },
+        {
+          "id": "melee-weapon",
+          "name": "Melee Weapon",
+          "type": "choice",
+          "pattern": "replacement",
+          "choices": [
+            {
+              "id": "power-fist",
+              "name": "Power Fist",
+              "default": true
+            },
+            {
+              "id": "chainfist",
+              "name": "Chainfist"
             }
           ]
         }
