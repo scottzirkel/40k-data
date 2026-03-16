@@ -1040,6 +1040,12 @@
       ],
       "abilities": [
         {
+          "id": "deep-strike",
+          "name": "Deep Strike",
+          "description": "During the Declare Battle Formations step, if every model in this unit has this ability, you can set this unit up in Reserves instead of on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models.",
+          "core": true
+        },
+        {
           "id": "inner-circle",
           "name": "Inner Circle",
           "description": "Each time an attack is allocated to a model in this unit, subtract 1 from the Damage characteristic of that attack."

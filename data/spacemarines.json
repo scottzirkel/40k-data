@@ -2058,7 +2058,7 @@
       "name": "Terminator Squad",
       "points": {
         "5": 170,
-        "6": 340
+        "10": 340
       },
       "stats": {
         "m": 5,
@@ -2069,6 +2069,73 @@
         "oc": 1
       },
       "weapons": [
+        {
+          "id": "assault-cannon-ranged",
+          "name": "Assault Cannon",
+          "type": "ranged",
+          "stats": {
+            "range": 24,
+            "a": 6,
+            "bs": "3+",
+            "s": 6,
+            "ap": 0,
+            "d": 1
+          },
+          "abilities": [
+            "Devastating Wounds"
+          ],
+          "loadoutGroup": "heavy-assault-cannon"
+        },
+        {
+          "id": "cyclone-missile-launcher-frag",
+          "name": "\u27a4 Cyclone Missile Launcher \u2013 Frag",
+          "type": "ranged",
+          "stats": {
+            "range": 36,
+            "a": "2D6",
+            "bs": "3+",
+            "s": 4,
+            "ap": 0,
+            "d": 1
+          },
+          "abilities": [
+            "Blast"
+          ],
+          "loadoutGroup": "heavy-cyclone"
+        },
+        {
+          "id": "cyclone-missile-launcher-krak",
+          "name": "\u27a4 Cyclone Missile Launcher \u2013 Krak",
+          "type": "ranged",
+          "stats": {
+            "range": 36,
+            "a": 2,
+            "bs": "3+",
+            "s": 9,
+            "ap": -2,
+            "d": "D6"
+          },
+          "abilities": [],
+          "loadoutGroup": "heavy-cyclone"
+        },
+        {
+          "id": "heavy-flamer-ranged",
+          "name": "Heavy Flamer",
+          "type": "ranged",
+          "stats": {
+            "range": 12,
+            "a": "D6",
+            "bs": "N/A",
+            "s": 5,
+            "ap": -1,
+            "d": 1
+          },
+          "abilities": [
+            "Ignores Cover",
+            "Torrent"
+          ],
+          "loadoutGroup": "heavy-flamer"
+        },
         {
           "id": "storm-bolter-ranged",
           "name": "Storm Bolter",
@@ -2084,21 +2151,7 @@
           "abilities": [
             "Rapid Fire 2"
           ],
-          "loadoutGroup": "terminator-sergeant"
-        },
-        {
-          "id": "power-fist-melee",
-          "name": "Power Fist",
-          "type": "melee",
-          "stats": {
-            "a": 3,
-            "ws": "3+",
-            "s": 8,
-            "ap": -2,
-            "d": 2
-          },
-          "abilities": [],
-          "loadoutGroup": "terminator-w-power-fist"
+          "loadoutGroup": "storm-bolter-power-fist"
         },
         {
           "id": "chainfist-melee",
@@ -2114,10 +2167,44 @@
           "abilities": [
             "Anti-Vehicle 3+"
           ],
-          "loadoutGroup": "terminator-w-chain-fist"
+          "loadoutGroup": "storm-bolter-chainfist"
+        },
+        {
+          "id": "power-fist-melee",
+          "name": "Power Fist",
+          "type": "melee",
+          "stats": {
+            "a": 3,
+            "ws": "3+",
+            "s": 8,
+            "ap": -2,
+            "d": 2
+          },
+          "abilities": [],
+          "loadoutGroup": "storm-bolter-power-fist"
+        },
+        {
+          "id": "power-weapon-melee",
+          "name": "Power Weapon",
+          "type": "melee",
+          "stats": {
+            "a": 4,
+            "ws": "3+",
+            "s": 5,
+            "ap": -2,
+            "d": 1
+          },
+          "abilities": [],
+          "loadoutGroup": "sergeant"
         }
       ],
       "abilities": [
+        {
+          "id": "deep-strike",
+          "name": "Deep Strike",
+          "description": "During the Declare Battle Formations step, if every model in this unit has this ability, you can set this unit up in Reserves instead of on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models.",
+          "core": true
+        },
         {
           "id": "teleport-homer",
           "name": "Teleport Homer",
@@ -2126,7 +2213,7 @@
         {
           "id": "fury-of-the-first",
           "name": "Fury of the First",
-          "description": "Each time a model in this unit makes an attack that targets your Oath of Moment target, add 1 to the Hit roll."
+          "description": "Each time a model in this unit makes an attack, you can ignore any or all modifiers to that attack's Ballistic Skill or Weapon Skill characteristic and/or to the Hit roll. In addition, each time a model in this unit makes an attack that targets the enemy unit you selected for the Oath of Moment ability this turn, add 1 to the Hit roll."
         }
       ],
       "keywords": [
@@ -2138,26 +2225,26 @@
       "loadoutOptions": [
         {
           "id": "main-weapon",
-          "name": "Weapon",
+          "name": "Melee Weapon",
           "type": "choice",
           "pattern": "replacement",
           "choices": [
             {
-              "id": "terminator-w-power-fist",
-              "name": "Power Fist + Storm Bolter",
+              "id": "storm-bolter-power-fist",
+              "name": "Storm Bolter + Power Fist",
               "default": true
             },
             {
-              "id": "terminator-w-chain-fist",
+              "id": "storm-bolter-chainfist",
               "name": "Storm Bolter + Chainfist"
             }
           ]
         },
         {
-          "id": "terminator-sergeant",
-          "name": "Storm Bolter",
+          "id": "heavy-weapon",
+          "name": "Heavy Weapon",
           "type": "optional",
-          "pattern": "addition",
+          "pattern": "replacement",
           "choices": [
             {
               "id": "none",
@@ -2165,31 +2252,24 @@
               "default": true
             },
             {
-              "id": "terminator-sergeant",
-              "name": "Storm Bolter + Terminator Honours upgrade",
+              "id": "heavy-assault-cannon",
+              "name": "Assault Cannon",
               "maxModels": 1
-            }
-          ]
-        },
-        {
-          "id": "terminator-w-heavy-weapon",
-          "name": "terminator-w-heavy-weapon",
-          "type": "optional",
-          "pattern": "addition",
-          "choices": [
-            {
-              "id": "none",
-              "name": "None",
-              "default": true
             },
             {
-              "id": "terminator-w-heavy-weapon",
-              "name": "",
+              "id": "heavy-flamer",
+              "name": "Heavy Flamer",
+              "maxModels": 1
+            },
+            {
+              "id": "heavy-cyclone",
+              "name": "Cyclone Missile Launcher",
               "maxModels": 1
             }
           ]
         }
-      ]
+      ],
+      "invuln": "4+"
     },
     {
       "id": "relic-terminator-squad-legends",
