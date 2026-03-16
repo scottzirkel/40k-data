@@ -277,6 +277,8 @@ export interface AllyFaction {
 export interface ArmyData {
     faction: string;
     lastUpdated: string;
+    /** Parent faction ID whose units this army also has access to (e.g., "spacemarines") */
+    parentFaction?: string;
     catalogueId?: string;
     gameSystemId?: string;
     armyRules?: Record<string, ArmyRule>;
