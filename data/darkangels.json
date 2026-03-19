@@ -2053,7 +2053,21 @@
           "name": "Vowed Target",
           "description": "At the start of your Movement phase, select one of the following:\n\n■ Defensive Footing: Select one objective marker you control. Until the start of your next Movement phase, that objective marker is your Vowed objective marker.\n■ Aggressive Push: Select one or more objective markers you do not control. Until the start of your next Movement phase, each of those objective markers is one of your Vowed objective markers.\n\nIf a rule refers to a unit or model being within range of your Vowed objective marker, that rule takes effect if that unit or model is within range of one or more of your Vowed objective markers.\n\nEach time a DEATHWING INFANTRY unit from your army makes an attack that targets a unit within range of one or more of your Vowed objective markers, add 1 to the Wound roll.",
           "type": "selection",
-          "resetsEachRound": true
+          "resetsEachRound": true,
+          "choices": [
+            {
+              "id": "defensive-footing",
+              "name": "Defensive Footing",
+              "effect": "Select one objective marker you control as your Vowed objective marker. DEATHWING INFANTRY attacking units near it get +1 to wound.",
+              "modifiers": []
+            },
+            {
+              "id": "aggressive-push",
+              "name": "Aggressive Push",
+              "effect": "Select one or more objective markers you do not control as Vowed objective markers. DEATHWING INFANTRY attacking units near them get +1 to wound.",
+              "modifiers": []
+            }
+          ]
         }
       ],
       "stratagems": [

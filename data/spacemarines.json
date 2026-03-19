@@ -9846,7 +9846,27 @@
           "name": "Combat Doctrines",
           "description": "At the start of your Command phase, you can select one of the Combat Doctrines listed below. Until the start of your next Command phase, that Combat Doctrine is active and its effects apply to all ADEPTUS ASTARTES units from your army. You can only select each Combat Doctrine once per battle.\n\n■ Devastator Doctrine: This unit is eligible to shoot in a turn in which it Advanced.\n■ Tactical Doctrine: This unit is eligible to shoot and declare a charge in a turn in which it Fell Back.\n■ Assault Doctrine: This unit is eligible to declare a charge in a turn in which it Advanced.",
           "type": "selection",
-          "resetsEachRound": true
+          "resetsEachRound": true,
+          "choices": [
+            {
+              "id": "devastator",
+              "name": "Devastator",
+              "effect": "This unit is eligible to shoot in a turn in which it Advanced.",
+              "modifiers": []
+            },
+            {
+              "id": "tactical",
+              "name": "Tactical",
+              "effect": "This unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+              "modifiers": []
+            },
+            {
+              "id": "assault",
+              "name": "Assault",
+              "effect": "This unit is eligible to declare a charge in a turn in which it Advanced.",
+              "modifiers": []
+            }
+          ]
         }
       ],
       "stratagems": [
@@ -10429,7 +10449,53 @@
           "name": "Psychic Disciplines",
           "description": "At the start of each battle round, select one of the following Psychic Disciplines to be active. Until the end of the battle round, its effects apply to all ADEPTUS ASTARTES PSYKER units from your army.\n\n■ Biomancy: Add 2\" to the Move characteristic of models in this unit.\n■ Divination: Each time a model in this unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.\n■ Pyromancy: Each time a ranged attack made by a model in this unit targets an enemy unit within 12\", improve the Armour Penetration characteristic of that attack by 1.\n■ Telekinesis: Each time a ranged attack targets this unit, subtract 1 from the Strength characteristic of that attack.\n■ Telepathy: Each time a model in this unit makes an attack, you can ignore any or all modifiers to that attack's Weapon Skill or Ballistic Skill characteristics and/or any or all modifiers to the Hit roll.",
           "type": "selection",
-          "resetsEachRound": true
+          "resetsEachRound": true,
+          "choices": [
+            {
+              "id": "biomancy",
+              "name": "Biomancy",
+              "effect": "Add 2\" to the Move characteristic of PSYKER models.",
+              "modifiers": [
+                {
+                  "stat": "m",
+                  "operation": "add",
+                  "value": 2,
+                  "scope": "model"
+                }
+              ]
+            },
+            {
+              "id": "divination",
+              "name": "Divination",
+              "effect": "Each time a PSYKER model makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.",
+              "modifiers": []
+            },
+            {
+              "id": "pyromancy",
+              "name": "Pyromancy",
+              "effect": "Ranged attacks by PSYKER models targeting enemies within 12\" improve AP by 1.",
+              "modifiers": [
+                {
+                  "stat": "ap",
+                  "operation": "subtract",
+                  "value": 1,
+                  "scope": "ranged"
+                }
+              ]
+            },
+            {
+              "id": "telekinesis",
+              "name": "Telekinesis",
+              "effect": "Ranged attacks targeting PSYKER units subtract 1 from Strength.",
+              "modifiers": []
+            },
+            {
+              "id": "telepathy",
+              "name": "Telepathy",
+              "effect": "PSYKER models can ignore modifiers to WS, BS, and Hit rolls when attacking.",
+              "modifiers": []
+            }
+          ]
         }
       ],
       "stratagems": [
