@@ -15,7 +15,9 @@
     "data"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "node --test test/*.test.mjs",
+    "validate": "npm run build && npm run test"
   },
   "devDependencies": {
     "typescript": "~5.9.3"

@@ -224,11 +224,12 @@
         {
           "id": "leader",
           "name": "Leader",
-          "description": "This model can be attached to the following units:\n\n■ Relic Terminator Squad\n■ Terminator Assault Squad\n■ Terminator Squad",
+          "description": "This model can be attached to the following units:\n\n■ Relic Terminator Squad\n■ Deathwing Terminator Squad\n■ Terminator Assault Squad\n■ Terminator Squad",
           "eligibleUnits": [
             "relic-terminator-squad",
             "terminator-assault-squad",
-            "terminator-squad"
+            "terminator-squad",
+            "deathwing-terminator-squad"
           ]
         }
       ],
@@ -6862,11 +6863,12 @@
         {
           "id": "leader",
           "name": "Leader",
-          "description": "This model can be attached to the following units:\n\n■ Relic Terminator Squad\n■ Terminator Assault Squad\n■ Terminator Squad",
+          "description": "This model can be attached to the following units:\n\n■ Relic Terminator Squad\n■ Deathwing Terminator Squad\n■ Terminator Assault Squad\n■ Terminator Squad",
           "eligibleUnits": [
             "relic-terminator-squad",
             "terminator-assault-squad",
-            "terminator-squad"
+            "terminator-squad",
+            "deathwing-terminator-squad"
           ]
         }
       ],
