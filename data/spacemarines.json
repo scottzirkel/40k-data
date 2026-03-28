@@ -82,7 +82,7 @@
             "d": 2
           },
           "abilities": [],
-          "loadoutGroup": "melee-option"
+          "loadoutGroup": "melee-fist"
         }
       ],
       "abilities": [
@@ -2805,8 +2805,7 @@
             "ap": -2,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "sergeant"
+          "abilities": []
         }
       ],
       "abilities": [
