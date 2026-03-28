@@ -558,7 +558,7 @@
           "pattern": "replacement",
           "choices": [
             {
-              "id": "none",
+              "id": "ranged-default",
               "name": "Heavy Bolt Pistol",
               "default": true
             },
@@ -7711,7 +7711,7 @@
           "pattern": "replacement",
           "choices": [
             {
-              "id": "none",
+              "id": "ranged-default",
               "name": "Bolt Pistol + Master-crafted Bolter",
               "default": true
             },
@@ -7729,7 +7729,7 @@
           "pattern": "replacement",
           "choices": [
             {
-              "id": "none",
+              "id": "melee-default",
               "name": "Close Combat Weapon",
               "default": true
             },
@@ -8798,7 +8798,7 @@
           "pattern": "replacement",
           "choices": [
             {
-              "id": "none",
+              "id": "ranged-default",
               "name": "Bolt Pistol",
               "default": true
             },
@@ -8816,7 +8816,7 @@
           "pattern": "replacement",
           "choices": [
             {
-              "id": "none",
+              "id": "melee-default",
               "name": "Crozius Arcanum",
               "default": true
             },
@@ -9408,7 +9408,7 @@
           "pattern": "replacement",
           "choices": [
             {
-              "id": "none",
+              "id": "melee-default",
               "name": "Close Combat Weapon",
               "default": true
             },
@@ -10038,7 +10038,7 @@
           "pattern": "replacement",
           "choices": [
             {
-              "id": "none",
+              "id": "ranged-default",
               "name": "Bolt Pistol + Master-crafted Bolter",
               "default": true
             },
@@ -10056,7 +10056,7 @@
           "pattern": "replacement",
           "choices": [
             {
-              "id": "none",
+              "id": "melee-default",
               "name": "Close Combat Weapon",
               "default": true
             },
