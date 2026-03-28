@@ -177,8 +177,7 @@
           },
           "abilities": [
             "Precision"
-          ],
-          "loadoutGroup": "wargear"
+          ]
         },
         {
           "id": "combat-knife-melee",
@@ -191,8 +190,7 @@
             "ap": -1,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "wargear"
+          "abilities": []
         }
       ],
       "abilities": [
@@ -3215,8 +3213,7 @@
             "ap": -2,
             "d": 3
           },
-          "abilities": [],
-          "loadoutGroup": "wargear"
+          "abilities": []
         },
         {
           "id": "incendium-cannon-ranged",
@@ -3251,7 +3248,7 @@
           "abilities": [
             "Twin-linked"
           ],
-          "loadoutGroup": "main-weapon"
+          "loadoutGroup": "main-weapon-autocannon"
         }
       ],
       "abilities": [
@@ -3267,6 +3264,25 @@
         "Invictor Tactical Warsuit",
         "Imperium",
         "Phobos"
+      ],
+      "loadoutOptions": [
+        {
+          "id": "main-weapon",
+          "name": "Main Weapon",
+          "type": "choice",
+          "pattern": "replacement",
+          "choices": [
+            {
+              "id": "main-weapon",
+              "name": "Incendium Cannon",
+              "default": true
+            },
+            {
+              "id": "main-weapon-autocannon",
+              "name": "Twin Ironhail Autocannon"
+            }
+          ]
+        }
       ]
     },
     {
@@ -3586,8 +3602,7 @@
             "ap": -2,
             "d": 3
           },
-          "abilities": [],
-          "loadoutGroup": "wargear"
+          "abilities": []
         },
         {
           "id": "twin-fragstorm-grenade-launcher-ranged",
@@ -3623,7 +3638,7 @@
             "Rapid Fire 2",
             "Twin-linked"
           ],
-          "loadoutGroup": "weapon-option-3"
+          "loadoutGroup": "weapon-option-3-alt"
         }
       ],
       "abilities": [
@@ -3639,6 +3654,25 @@
         "Imperium",
         "Redemptor Dreadnought",
         "Dreadnought"
+      ],
+      "loadoutOptions": [
+        {
+          "id": "secondary-weapon",
+          "name": "Secondary Weapon",
+          "type": "choice",
+          "pattern": "replacement",
+          "choices": [
+            {
+              "id": "weapon-option-3",
+              "name": "Twin Fragstorm Grenade Launcher",
+              "default": true
+            },
+            {
+              "id": "weapon-option-3-alt",
+              "name": "Twin Storm Bolter"
+            }
+          ]
+        }
       ]
     },
     {
@@ -4097,8 +4131,7 @@
           },
           "abilities": [
             "Pistol"
-          ],
-          "loadoutGroup": "wargear"
+          ]
         },
         {
           "id": "twin-bolt-rifle-ranged",
@@ -4114,8 +4147,7 @@
           },
           "abilities": [
             "Twin-linked"
-          ],
-          "loadoutGroup": "wargear"
+          ]
         },
         {
           "id": "onslaught-gatling-cannon-ranged",
@@ -4149,7 +4181,7 @@
           "abilities": [
             "Melta 2"
           ],
-          "loadoutGroup": "turret-weapon"
+          "loadoutGroup": "turret-weapon-melta"
         },
         {
           "id": "close-combat-weapon-melee",
@@ -4162,8 +4194,7 @@
             "ap": 0,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "wargear"
+          "abilities": []
         }
       ],
       "abilities": [
@@ -4178,6 +4209,25 @@
         "Grenades",
         "Imperium",
         "Invader ATV"
+      ],
+      "loadoutOptions": [
+        {
+          "id": "turret-weapon",
+          "name": "Turret Weapon",
+          "type": "choice",
+          "pattern": "replacement",
+          "choices": [
+            {
+              "id": "turret-weapon",
+              "name": "Onslaught Gatling Cannon",
+              "default": true
+            },
+            {
+              "id": "turret-weapon-melta",
+              "name": "Multi-melta"
+            }
+          ]
+        }
       ]
     },
     {
@@ -5884,7 +5934,7 @@
           "abilities": [
             "Twin-linked"
           ],
-          "loadoutGroup": "main-weapon"
+          "loadoutGroup": "main-weapon-autocannon"
         },
         {
           "id": "close-combat-weapon-melee",
@@ -5897,8 +5947,7 @@
             "ap": 0,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "wargear"
+          "abilities": []
         }
       ],
       "abilities": [
@@ -5913,6 +5962,25 @@
         "Vehicle",
         "Imperium",
         "Firestrike Servo-turrets"
+      ],
+      "loadoutOptions": [
+        {
+          "id": "main-weapon",
+          "name": "Main Weapon",
+          "type": "choice",
+          "pattern": "replacement",
+          "choices": [
+            {
+              "id": "main-weapon",
+              "name": "Twin Firestrike Las-talon",
+              "default": true
+            },
+            {
+              "id": "main-weapon-autocannon",
+              "name": "Twin Firestrike Autocannon"
+            }
+          ]
+        }
       ]
     },
     {
@@ -6972,7 +7040,7 @@
           "abilities": [
             "Twin-linked"
           ],
-          "loadoutGroup": "main-weapon"
+          "loadoutGroup": "main-weapon-lascannon"
         },
         {
           "id": "hunter-killer-missile-ranged",
@@ -7019,8 +7087,7 @@
             "ap": 0,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "wargear"
+          "abilities": []
         }
       ],
       "abilities": [
@@ -7042,6 +7109,42 @@
         "Dedicated Transport",
         "Transport",
         "Razorback"
+      ],
+      "loadoutOptions": [
+        {
+          "id": "main-weapon",
+          "name": "Main Weapon",
+          "type": "choice",
+          "pattern": "replacement",
+          "choices": [
+            {
+              "id": "main-weapon",
+              "name": "Twin Heavy Bolter",
+              "default": true
+            },
+            {
+              "id": "main-weapon-lascannon",
+              "name": "Twin Lascannon"
+            }
+          ]
+        },
+        {
+          "id": "optional-weapon",
+          "name": "Optional Weapon",
+          "type": "optional",
+          "pattern": "addition",
+          "choices": [
+            {
+              "id": "none",
+              "name": "None",
+              "default": true
+            },
+            {
+              "id": "option",
+              "name": "Hunter-killer Missile + Storm Bolter"
+            }
+          ]
+        }
       ]
     },
     {

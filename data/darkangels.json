@@ -948,7 +948,8 @@
           "abilities": [
             "Devastating Wounds",
             "Sustained Hits 1"
-          ]
+          ],
+          "loadoutGroup": "great-weapon"
         },
         {
           "id": "relic-weapon-melee",
@@ -963,7 +964,8 @@
           },
           "abilities": [
             "Lethal Hits"
-          ]
+          ],
+          "loadoutGroup": "relic-weapon"
         },
         {
           "id": "mace-of-absolution-melee",
@@ -979,7 +981,8 @@
           "abilities": [
             "Anti-Monster 4+",
             "Anti-Vehicle 4+"
-          ]
+          ],
+          "loadoutGroup": "mace"
         },
         {
           "id": "power-weapon-melee",
@@ -992,7 +995,8 @@
             "ap": -2,
             "d": 2
           },
-          "abilities": []
+          "abilities": [],
+          "loadoutGroup": "power-weapon"
         }
       ],
       "abilities": [
@@ -1031,6 +1035,43 @@
         "Dark Angels",
         "Deathwing",
         "Deathwing Knights"
+      ],
+      "loadoutOptions": [
+        {
+          "id": "knight-master-weapon",
+          "name": "Knight Master Weapon",
+          "type": "choice",
+          "pattern": "replacement",
+          "maxModels": 1,
+          "choices": [
+            {
+              "id": "great-weapon",
+              "name": "Great Weapon of the Unforgiven",
+              "default": true
+            },
+            {
+              "id": "relic-weapon",
+              "name": "Relic Weapon"
+            }
+          ]
+        },
+        {
+          "id": "melee-weapon",
+          "name": "Melee Weapon",
+          "type": "choice",
+          "pattern": "replacement",
+          "choices": [
+            {
+              "id": "mace",
+              "name": "Mace of Absolution",
+              "default": true
+            },
+            {
+              "id": "power-weapon",
+              "name": "Power Weapon"
+            }
+          ]
+        }
       ]
     },
     {
@@ -1754,6 +1795,25 @@
         "Dark Angels",
         "Ravenwing",
         "Nephilim Jetfighter"
+      ],
+      "loadoutOptions": [
+        {
+          "id": "main-gun",
+          "name": "Main Gun",
+          "type": "choice",
+          "pattern": "replacement",
+          "choices": [
+            {
+              "id": "main-gun-default",
+              "name": "Avenger Mega Bolter",
+              "default": true
+            },
+            {
+              "id": "main-gun-lascannon",
+              "name": "Nephilim Lascannons"
+            }
+          ]
+        }
       ]
     },
     {
