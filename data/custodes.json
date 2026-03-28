@@ -221,7 +221,7 @@
         },
         {
           "id": "vexilla-misericordia",
-          "name": "Misericordia",
+          "name": "Vexilla",
           "type": "optional",
           "pattern": "addition",
           "choices": [
@@ -232,8 +232,9 @@
             },
             {
               "id": "vexilla-misericordia",
-              "name": "Misericordia + Balistus grenade launcher",
-              "maxModels": 1
+              "name": "Vexilla + Misericordia",
+              "maxModels": 1,
+              "excludesFromOption": "main-weapon"
             }
           ]
         }
