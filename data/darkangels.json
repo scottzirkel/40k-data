@@ -133,7 +133,7 @@
       "id": "azrael",
       "name": "Azrael",
       "points": {
-        "1": 115
+        "1": 125
       },
       "stats": {
         "m": 6,
@@ -1442,8 +1442,8 @@
       "id": "ravenwing-black-knights",
       "name": "Ravenwing Black Knights",
       "points": {
-        "3": 90,
-        "6": 180
+        "3": 80,
+        "6": 160
       },
       "stats": {
         "m": 12,
@@ -1823,7 +1823,7 @@
       "id": "ravenwing-darkshroud",
       "name": "Ravenwing Darkshroud",
       "points": {
-        "1": 115
+        "1": 100
       },
       "stats": {
         "m": 14,
