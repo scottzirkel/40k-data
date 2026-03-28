@@ -594,7 +594,8 @@
             {
               "id": "vexilla-praesidium-shield-misericordia",
               "name": "Vexilla + Misericordia",
-              "maxModels": 1
+              "maxModels": 1,
+              "excludesFromOption": "main-weapon"
             }
           ]
         }
@@ -739,7 +740,8 @@
             {
               "id": "custodian-warden-w-vexilla",
               "name": "Vexilla",
-              "maxModels": 1
+              "maxModels": 1,
+              "excludesFromOption": "main-weapon"
             }
           ]
         }
