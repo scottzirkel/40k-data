@@ -2053,7 +2053,7 @@
         {
           "id": "grand-illusion",
           "name": "Grand Illusion",
-          "description": "If your army includes this model, after both players have deployed their armies, select up to three ^^**NECRONS^^** units from your army and redeploy them. When doing so, any of those units can be placed in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+          "description": "If your army includes this model, after both players have deployed their armies, select up to three **NECRONS** units from your army and redeploy them. When doing so, any of those units can be placed in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
         }
       ],
       "keywords": [
@@ -2245,7 +2245,7 @@
         {
           "id": "matter-absorption",
           "name": "Matter Absorption",
-          "description": "At the start of your Shooting phase, select one enemy ^^**VEHICLE^^** unit within 12\" of this model and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds and this model regains up to that many lost wounds."
+          "description": "At the start of your Shooting phase, select one enemy **VEHICLE** unit within 12\" of this model and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds and this model regains up to that many lost wounds."
         }
       ],
       "keywords": [
@@ -3548,8 +3548,7 @@
             "ap": -4,
             "d": 6
           },
-          "abilities": [],
-          "loadoutGroup": "triarchal-menhir"
+          "abilities": []
         },
         {
           "id": "armoured-bulk-melee",
@@ -3562,8 +3561,7 @@
             "ap": 0,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "triarchal-menhir"
+          "abilities": []
         }
       ],
       "abilities": [
@@ -4347,7 +4345,7 @@
         {
           "id": "harassment-swarm-aura",
           "name": "Harassment Swarm (Aura)",
-          "description": "While an enemy unit (excluding ^^**Monsters^^** and ^^**Vehicles^^**) is within 3\" of this unit, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+          "description": "While an enemy unit (excluding **Monsters** and **Vehicles**) is within 3\" of this unit, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
         }
       ],
       "keywords": [
@@ -4470,7 +4468,7 @@
         {
           "id": "canoptek-retinue",
           "name": "Canoptek Retinue",
-          "description": "At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a ^^**Cryptek^^** model (a unit cannot have more than one ^^**Tomb Crawlers^^** unit joined to it and cannot have both a ^^**Tomb Crawlers^^** and a ^^**Cryptothralls^^** unit joined to it). If it does, until the end of the battle, every model in this unit counts as being part of that Bodyguard unit, and that Bodyguard unit’s Starting Strength is increased accordingly."
+          "description": "At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a **Cryptek** model (a unit cannot have more than one **Tomb Crawlers** unit joined to it and cannot have both a **Tomb Crawlers** and a **Cryptothralls** unit joined to it). If it does, until the end of the battle, every model in this unit counts as being part of that Bodyguard unit, and that Bodyguard unit’s Starting Strength is increased accordingly."
         }
       ],
       "keywords": [
@@ -4597,12 +4595,11 @@
         {
           "id": "leader",
           "name": "Leader",
-          "description": "This model can be attached to the following units: ^^**Canoptek Macrocytes, Immortals, Necron Warriors^^**. \n\n\n*You can attach this model to one of the above units even if one ^^**Royal Warden^^** or ^^**Noble^^** model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.*",
+          "description": "This model can be attached to the following units: **Canoptek Macrocytes, Immortals, Necron Warriors**. \n\n\n*You can attach this model to one of the above units even if one **Royal Warden** or **Noble** model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.*",
           "eligibleUnits": [
-            "it-if-you-do",
-            "and-that-bodyguard-unit-is-destroyed",
-            "the-leader-units-attached-to-it-become-separate-units",
-            "with-their-original-starting-strengths"
+            "canoptek-macrocytes",
+            "immortals",
+            "necron-warriors"
           ]
         }
       ],
@@ -4685,17 +4682,17 @@
         {
           "id": "protective-disciples",
           "name": "Protective Disciples",
-          "description": "While this model is within 3\" of one or more other friendly ^^**Destroyer Cult^^** units, this model has the Lone Operative ability."
+          "description": "While this model is within 3\" of one or more other friendly **Destroyer Cult** units, this model has the Lone Operative ability."
         },
         {
           "id": "infectious-murder-madness-aura",
           "name": "Infectious Murder‑madness (Aura)",
-          "description": "While a friendly ^^**Necrons^^** unit (excluding ^^**Titanic^^** units) is within 6\" of this model, each time a model in that unit makes an attack, if that model has the ^^**Destroyer Cult^^** keyword or that enemy unit is the closest eligible target, that attack has the [SUSTAINED HITS 1] ability."
+          "description": "While a friendly **Necrons** unit (excluding **Titanic** units) is within 6\" of this model, each time a model in that unit makes an attack, if that model has the **Destroyer Cult** keyword or that enemy unit is the closest eligible target, that attack has the [SUSTAINED HITS 1] ability."
         },
         {
           "id": "prophet-of-destruction",
           "name": "Prophet of Destruction",
-          "description": "Each time this model destroys an enemy unit, select one other friendly ^^**Destroyer Cult^^** unit within 9\" of it. Until the end of the phase, each time a model in that unit makes an attack, re‑roll a Wound roll of 1."
+          "description": "Each time this model destroys an enemy unit, select one other friendly **Destroyer Cult** unit within 9\" of it. Until the end of the phase, each time a model in that unit makes an attack, re‑roll a Wound roll of 1."
         }
       ],
       "keywords": [

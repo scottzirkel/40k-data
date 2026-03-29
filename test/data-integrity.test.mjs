@@ -78,12 +78,19 @@ describe('unit data integrity', () => {
         }
       });
 
-      it('leader abilities reference existing units', { todo: 'some factions have units not yet added to data' }, () => {
-        // Collect all unit IDs across this faction and its parent
+      it('leader abilities reference existing units', () => {
+        // Collect all unit IDs across this faction, its parent, and its children
         const allUnitIds = new Set(data.units.map(u => u.id));
         if (data.parentFaction && factions[data.parentFaction]) {
           for (const u of factions[data.parentFaction].units) {
             allUnitIds.add(u.id);
+          }
+        }
+        for (const [otherId, otherData] of Object.entries(factions)) {
+          if (otherData.parentFaction === factionId) {
+            for (const u of otherData.units) {
+              allUnitIds.add(u.id);
+            }
           }
         }
 
@@ -100,7 +107,7 @@ describe('unit data integrity', () => {
         }
       });
 
-      it('weapon loadoutGroups match loadoutOption choices (for units with options)', { todo: 'some factions have BSData generation quirks' }, () => {
+      it('weapon loadoutGroups match loadoutOption choices (for units with options)', () => {
         for (const unit of data.units) {
           if (!unit.loadoutOptions || unit.loadoutOptions.length === 0) continue;
 

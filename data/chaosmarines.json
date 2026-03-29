@@ -385,7 +385,7 @@
         {
           "id": "lord-of-chaos",
           "name": "Lord of Chaos",
-          "description": "While this model is within 3\" of one or more friendly ^^**Heretic Astartes Infantry^^** units, this model has the Lone Operative ability."
+          "description": "While this model is within 3\" of one or more friendly **Heretic Astartes Infantry** units, this model has the Lone Operative ability."
         }
       ],
       "keywords": [
@@ -582,12 +582,12 @@
         {
           "id": "surgeon-acolyte",
           "name": "Surgeon Acolyte",
-          "description": "Once per turn, when an attack is allocated to a model in this unit, if this unit contains ^^**Fabius Bile**^^, you can change the Damage characteristic of that attack to 0."
+          "description": "Once per turn, when an attack is allocated to a model in this unit, if this unit contains **Fabius Bile**, you can change the Damage characteristic of that attack to 0."
         },
         {
           "id": "chirurgeon",
           "name": "Chirurgeon",
-          "description": "The first time this unit’s ^^**Fabius Bile^^** model is destroyed, at the end of the phase, roll one D6: on a 2+, set it back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy models, with its full wounds remaining. If that model was attached to a unit when it was destroyed, it must be set up attached to that unit."
+          "description": "The first time this unit’s **Fabius Bile** model is destroyed, at the end of the phase, roll one D6: on a 2+, set it back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy models, with its full wounds remaining. If that model was attached to a unit when it was destroyed, it must be set up attached to that unit."
         }
       ],
       "keywords": [
@@ -1402,12 +1402,12 @@
         {
           "id": "corrupt-machine-spirits",
           "name": "Corrupt Machine Spirits",
-          "description": "At the start of your Shooting phase, select one visible enemy ^^**Vehicle^^** unit within 12\" of this model and roll one D6: on a 2‑3, that enemy unit suffers D3 mortal wounds; on a 4‑5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.’"
+          "description": "At the start of your Shooting phase, select one visible enemy **Vehicle** unit within 12\" of this model and roll one D6: on a 2‑3, that enemy unit suffers D3 mortal wounds; on a 4‑5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.’"
         },
         {
           "id": "spirit-thief",
           "name": "Spirit Thief",
-          "description": "At the start of your Shooting phase, select one visible enemy ^^**Vehicle^^** unit. Until the end of the phase, each time a friendly ^^**Heretic Astartes^^** model makes an attack that targets that unit, re-roll a Wound roll of 1."
+          "description": "At the start of your Shooting phase, select one visible enemy **Vehicle** unit. Until the end of the phase, each time a friendly **Heretic Astartes** model makes an attack that targets that unit, re-roll a Wound roll of 1."
         },
         {
           "id": "invulnerable-save",
@@ -1649,8 +1649,7 @@
             "ap": 0,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "dark-disciple"
+          "abilities": []
         }
       ],
       "abilities": [
@@ -1740,8 +1739,7 @@
             "ap": -2,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "blessed-blades"
+          "abilities": []
         },
         {
           "id": "autopistol-ranged",
@@ -2069,8 +2067,7 @@
           },
           "abilities": [
             "Pistol"
-          ],
-          "loadoutGroup": "cultist-w-autopistol-and-brutal-assault-weapon"
+          ]
         }
       ],
       "abilities": [
@@ -3241,7 +3238,7 @@
         {
           "id": "unholy-mechanisms-aura",
           "name": "Unholy Mechanisms (Aura)",
-          "description": "While a friendly ^^**Daemon Vehicle^^** unit is within 6\" of this model, add 2 to the Strength characteristic of weapons equipped by models in that unit."
+          "description": "While a friendly **Daemon Vehicle** unit is within 6\" of this model, add 2 to the Strength characteristic of weapons equipped by models in that unit."
         },
         {
           "id": "reorder-reality",
@@ -3251,7 +3248,7 @@
         {
           "id": "indentured-daemon-engines",
           "name": "Indentured Daemon Engines",
-          "description": "While this model is within 3\" of one or more friendly ^^**Daemon Vehicle^^** units, this model has the Lone Operative ability."
+          "description": "While this model is within 3\" of one or more friendly **Daemon Vehicle** units, this model has the Lone Operative ability."
         }
       ],
       "keywords": [
@@ -3294,8 +3291,7 @@
           },
           "abilities": [
             "Rapid Fire 1"
-          ],
-          "loadoutGroup": "guardsman-w-lasgun"
+          ]
         },
         {
           "id": "close-combat-weapon-melee",
@@ -3308,8 +3304,7 @@
             "ap": 0,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "guardsman-w-lasgun"
+          "abilities": []
         }
       ],
       "abilities": [
@@ -3377,8 +3372,7 @@
           },
           "abilities": [
             "Pistol"
-          ],
-          "loadoutGroup": "beastman"
+          ]
         },
         {
           "id": "close-combat-weapon-melee",
@@ -3391,8 +3385,7 @@
             "ap": 0,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "beastman"
+          "abilities": []
         },
         {
           "id": "great-weapon-melee",
@@ -3566,7 +3559,7 @@
           "name": "Leader",
           "description": "This unit can be attached to the following unit:\n■ TRAITOR GUARDSMAN SQUAD",
           "eligibleUnits": [
-            "traitor-guardsman-squad"
+            "traitor-guardsmen-squad"
           ]
         },
         {
@@ -3722,7 +3715,7 @@
         {
           "id": "annihilator",
           "name": "Annihilator",
-          "description": "Each time a ranged attack made by this model is allocated to a **^^Monster^^** or **^^Vehicle^^** model, you can re-roll the Damage roll."
+          "description": "Each time a ranged attack made by this model is allocated to a **Monster** or **Vehicle** model, you can re-roll the Damage roll."
         }
       ],
       "keywords": [
@@ -4566,15 +4559,14 @@
             "ap": -1,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "khorne-berzerker"
+          "abilities": []
         }
       ],
       "abilities": [
         {
           "id": "blood-surge",
           "name": "Blood Surge",
-          "description": "In your opponent's Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Blood Surge move. To do so, roll one D6 and add 2 to the roll: models in this unit move a number of inches up to this result, but this unit must finish that move as close as possible to the closest enemy unit (excluding ^^**Aircraft^^**). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Blood Surge move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Blood Surge move per phase."
+          "description": "In your opponent's Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Blood Surge move. To do so, roll one D6 and add 2 to the roll: models in this unit move a number of inches up to this result, but this unit must finish that move as close as possible to the closest enemy unit (excluding **Aircraft**). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Blood Surge move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Blood Surge move per phase."
         }
       ],
       "keywords": [
@@ -6020,7 +6012,7 @@
           "description": "This model can be attached to the following unit:\n■ CHAOS BIKERS\n■ KHORNE BERSERKERS",
           "eligibleUnits": [
             "chaos-bikers",
-            "khorne-berserkers"
+            "khorne-berzerkers"
           ]
         },
         {
@@ -6741,8 +6733,7 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n■ TRAITOR GUARDSMEN SQUAD\n■ RENEGADE HEAVY WEAPONS SQUAD",
           "eligibleUnits": [
-            "traitor-guardsmen-squad",
-            "renegade-heavy-weapons-squad"
+            "traitor-guardsmen-squad"
           ]
         },
         {
@@ -6962,8 +6953,7 @@
             "ap": -1,
             "d": 2
           },
-          "abilities": [],
-          "loadoutGroup": "brute-w-ogryn-weapon"
+          "abilities": []
         },
         {
           "id": "ogryn-power-drill-melee",
@@ -7110,8 +7100,7 @@
           "description": "This model can be attached to the following units:\n■ ACCURSED CULTISTS\n■ CULTIST MOB\n■ NEGAVOLT CULTISTS",
           "eligibleUnits": [
             "accursed-cultists",
-            "cultist-mob",
-            "negavolt-cultists"
+            "cultist-mob"
           ]
         },
         {
@@ -7405,8 +7394,7 @@
             "ap": 0,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "chaos-mauler-hound"
+          "abilities": []
         }
       ],
       "abilities": [

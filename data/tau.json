@@ -88,7 +88,7 @@
         {
           "id": "hero-of-the-empire-aura",
           "name": "Hero of the Empire (Aura)",
-          "description": "While a friendly T\u2019AU EMPIRE unit is within 6\" of this model, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
+          "description": "While a friendly T’AU EMPIRE unit is within 6\" of this model, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
         },
         {
           "id": "advanced-guardian-drone",
@@ -98,7 +98,7 @@
         {
           "id": "command-link-drone-aura",
           "name": "Command-link Drone (Aura)",
-          "description": "While a friendly T\u2019AU EMPIRE unit is within 6\" of the bearer, each time you select that unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
+          "description": "While a friendly T’AU EMPIRE unit is within 6\" of the bearer, each time you select that unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
         },
         {
           "id": "supreme-commander",
@@ -148,7 +148,7 @@
         },
         {
           "id": "dawn-blade-strike-melee",
-          "name": "\u27a4 Dawn Blade - strike",
+          "name": "➤ Dawn Blade - strike",
           "type": "melee",
           "stats": {
             "a": 4,
@@ -161,7 +161,7 @@
         },
         {
           "id": "dawn-blade-sweep-melee",
-          "name": "\u27a4 Dawn Blade - sweep",
+          "name": "➤ Dawn Blade - sweep",
           "type": "melee",
           "stats": {
             "a": 8,
@@ -445,8 +445,7 @@
             "ap": 0,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "ethereal-guard"
+          "abilities": []
         }
       ],
       "abilities": [
@@ -468,7 +467,7 @@
         {
           "id": "supreme-loyalty-aura",
           "name": "Supreme Loyalty (Aura)",
-          "description": "While a friendly T\u2019AU EMPIRE unit is within 6\" of this unit, each time that unit takes a Battle-shock or Leadership test, add 1 to that test."
+          "description": "While a friendly T’AU EMPIRE unit is within 6\" of this unit, each time that unit takes a Battle-shock or Leadership test, add 1 to that test."
         }
       ],
       "keywords": [
@@ -634,7 +633,7 @@
         },
         {
           "id": "ion-cannon-standard-ranged",
-          "name": "\u27a4 Ion cannon - standard",
+          "name": "➤ Ion cannon - standard",
           "type": "ranged",
           "stats": {
             "range": 60,
@@ -651,7 +650,7 @@
         },
         {
           "id": "ion-cannon-overcharge-ranged",
-          "name": "\u27a4 Ion cannon - overcharge",
+          "name": "➤ Ion cannon - overcharge",
           "type": "ranged",
           "stats": {
             "range": 60,
@@ -773,7 +772,7 @@
         {
           "id": "ds8-support-turret",
           "name": "DS8 Support Turret",
-          "description": "In your Movement phase, if this unit Remains Stationary, until the start of your next turn, its Shas\u2019ui model is equipped with the support turret weapon.\n\nDesigner\u2019s Note: Place a Support Turret token next to this unit to remind you."
+          "description": "In your Movement phase, if this unit Remains Stationary, until the start of your next turn, its Shas’ui model is equipped with the support turret weapon.\n\nDesigner’s Note: Place a Support Turret token next to this unit to remind you."
         }
       ],
       "keywords": [
@@ -853,8 +852,7 @@
           },
           "abilities": [
             "Pistol"
-          ],
-          "loadoutGroup": "breacher-fire-warriors"
+          ]
         },
         {
           "id": "close-combat-weapon-melee",
@@ -867,8 +865,7 @@
             "ap": 0,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "breacher-fire-warriors"
+          "abilities": []
         },
         {
           "id": "pulse-blaster-ranged",
@@ -884,8 +881,7 @@
           },
           "abilities": [
             "Assault"
-          ],
-          "loadoutGroup": "breacher-fire-warriors"
+          ]
         }
       ],
       "abilities": [
@@ -897,7 +893,7 @@
         {
           "id": "ds8-support-turret",
           "name": "DS8 Support Turret",
-          "description": "In your Movement phase, if this unit Remains Stationary, until the start of your next turn, its Shas\u2019ui model is equipped with the support turret weapon.\n\nDesigner\u2019s Note: Place a Support Turret token next to this unit to remind you."
+          "description": "In your Movement phase, if this unit Remains Stationary, until the start of your next turn, its Shas’ui model is equipped with the support turret weapon.\n\nDesigner’s Note: Place a Support Turret token next to this unit to remind you."
         }
       ],
       "keywords": [
@@ -1407,7 +1403,7 @@
         },
         {
           "id": "cyclic-ion-raker-standard-ranged",
-          "name": "\u27a4 Cyclic ion raker - standard",
+          "name": "➤ Cyclic ion raker - standard",
           "type": "ranged",
           "stats": {
             "range": 36,
@@ -1422,7 +1418,7 @@
         },
         {
           "id": "cyclic-ion-raker-overcharge-ranged",
-          "name": "\u27a4 Cyclic ion raker - overcharge",
+          "name": "➤ Cyclic ion raker - overcharge",
           "type": "ranged",
           "stats": {
             "range": 36,
@@ -1442,7 +1438,7 @@
         {
           "id": "stealth-drones",
           "name": "Stealth Drones",
-          "description": "Twice per battle, after an attack has been allocated to this model, you can change the Damage characteristic of that attack to 0.\n\nDesigner\u2019s Note: Place two Stealth Drone tokens next to the unit, removing one each time this ability has been used."
+          "description": "Twice per battle, after an attack has been allocated to this model, you can change the Damage characteristic of that attack to 0.\n\nDesigner’s Note: Place two Stealth Drone tokens next to the unit, removing one each time this ability has been used."
         }
       ],
       "keywords": [
@@ -1508,7 +1504,7 @@
         {
           "id": "precise-targeting",
           "name": "Precise Targeting",
-          "description": "Each time a model in this unit\u00a0makes an attack that targets a Spotted unit, you can\u00a0re\u2011roll the Hit roll."
+          "description": "Each time a model in this unit makes an attack that targets a Spotted unit, you can re‑roll the Hit roll."
         }
       ],
       "keywords": [
@@ -1547,8 +1543,7 @@
             "ap": 0,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "pathfinders-w-pulse-carbine"
+          "abilities": []
         },
         {
           "id": "pulse-pistol-ranged",
@@ -1564,8 +1559,7 @@
           },
           "abilities": [
             "Pistol"
-          ],
-          "loadoutGroup": "pathfinders-w-pulse-carbine"
+          ]
         },
         {
           "id": "close-combat-weapon-melee",
@@ -1578,12 +1572,11 @@
             "ap": 0,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "pathfinders-w-pulse-carbine"
+          "abilities": []
         },
         {
           "id": "semi-automatic-grenade-launcher-emp-ranged",
-          "name": "\u27a4 Semi-automatic grenade launcher - EMP",
+          "name": "➤ Semi-automatic grenade launcher - EMP",
           "type": "ranged",
           "stats": {
             "range": 18,
@@ -1601,7 +1594,7 @@
         },
         {
           "id": "semi-automatic-grenade-launcher-fusion-ranged",
-          "name": "\u27a4 Semi-automatic grenade launcher - fusion",
+          "name": "➤ Semi-automatic grenade launcher - fusion",
           "type": "ranged",
           "stats": {
             "range": 18,
@@ -1619,7 +1612,7 @@
         {
           "id": "target-uploaded",
           "name": "Target Uploaded",
-          "description": "Each time a model in this unit\u00a0makes an attack that targets their Spotted unit,\u00a0improve the Ballistic Skill characteristic of that attack\u00a0by 1 and that attack has the **[IGNORES COVER]** ability."
+          "description": "Each time a model in this unit makes an attack that targets their Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and that attack has the **[IGNORES COVER]** ability."
         }
       ],
       "keywords": [
@@ -1726,8 +1719,7 @@
             "ap": -1,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "w-neutron-blaster"
+          "abilities": []
         },
         {
           "id": "neutron-blaster-ranged",
@@ -1743,8 +1735,7 @@
           },
           "abilities": [
             "Assault"
-          ],
-          "loadoutGroup": "w-neutron-blaster"
+          ]
         },
         {
           "id": "t-au-flamer-ranged",
@@ -1804,7 +1795,7 @@
         {
           "id": "airborne-agility",
           "name": "Airborne Agility",
-          "description": "At the end of your opponent\u2019s turn, if this\u00a0unit is not within Engagement Range of one or more enemy\u00a0units, you can remove it from the battlefield and place it into\u00a0Strategic Reserves."
+          "description": "At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves."
         }
       ],
       "keywords": [
@@ -1965,8 +1956,7 @@
             "ap": 0,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "broadside-shas-ui"
+          "abilities": []
         }
       ],
       "abilities": [],
@@ -2045,7 +2035,7 @@
         },
         {
           "id": "ion-accelerator-standard-ranged",
-          "name": "\u27a4 Ion accelerator - standard",
+          "name": "➤ Ion accelerator - standard",
           "type": "ranged",
           "stats": {
             "range": 72,
@@ -2060,7 +2050,7 @@
         },
         {
           "id": "ion-accelerator-overcharge-ranged",
-          "name": "\u27a4 Ion accelerator - overcharge",
+          "name": "➤ Ion accelerator - overcharge",
           "type": "ranged",
           "stats": {
             "range": 72,
@@ -2140,7 +2130,7 @@
         },
         {
           "id": "ion-cannon-standard-ranged",
-          "name": "\u27a4 Ion cannon - standard",
+          "name": "➤ Ion cannon - standard",
           "type": "ranged",
           "stats": {
             "range": 60,
@@ -2157,7 +2147,7 @@
         },
         {
           "id": "ion-cannon-overcharge-ranged",
-          "name": "\u27a4 Ion cannon - overcharge",
+          "name": "➤ Ion cannon - overcharge",
           "type": "ranged",
           "stats": {
             "range": 60,
@@ -2287,7 +2277,7 @@
       "weapons": [
         {
           "id": "quad-ion-turret-standard-ranged",
-          "name": "\u27a4 Quad ion turret - standard",
+          "name": "➤ Quad ion turret - standard",
           "type": "ranged",
           "stats": {
             "range": 30,
@@ -2304,7 +2294,7 @@
         },
         {
           "id": "quad-ion-turret-overcharge-ranged",
-          "name": "\u27a4 Quad ion turret - overcharge",
+          "name": "➤ Quad ion turret - overcharge",
           "type": "ranged",
           "stats": {
             "range": 30,
@@ -2354,7 +2344,7 @@
       "weapons": [
         {
           "id": "twin-ion-rifle-standard-ranged",
-          "name": "\u27a4 Twin ion rifle - standard",
+          "name": "➤ Twin ion rifle - standard",
           "type": "ranged",
           "stats": {
             "range": 30,
@@ -2371,7 +2361,7 @@
         },
         {
           "id": "twin-ion-rifle-overcharged-ranged",
-          "name": "\u27a4 Twin ion rifle - overcharged",
+          "name": "➤ Twin ion rifle - overcharged",
           "type": "ranged",
           "stats": {
             "range": 30,
@@ -2644,7 +2634,7 @@
         },
         {
           "id": "pulse-blast-cannon-focused-ranged",
-          "name": "\u27a4 Pulse blast cannon - focused",
+          "name": "➤ Pulse blast cannon - focused",
           "type": "ranged",
           "stats": {
             "range": 24,
@@ -2661,7 +2651,7 @@
         },
         {
           "id": "pulse-blast-cannon-dispersed-ranged",
-          "name": "\u27a4 Pulse blast cannon - dispersed",
+          "name": "➤ Pulse blast cannon - dispersed",
           "type": "ranged",
           "stats": {
             "range": 48,
@@ -3041,7 +3031,7 @@
         },
         {
           "id": "ionic-discharge-cannon-standard-ranged",
-          "name": "\u27a4 Ionic discharge cannon - standard",
+          "name": "➤ Ionic discharge cannon - standard",
           "type": "ranged",
           "stats": {
             "range": 18,
@@ -3058,7 +3048,7 @@
         },
         {
           "id": "ionic-discharge-cannon-overcharge-ranged",
-          "name": "\u27a4 Ionic discharge cannon - overcharge",
+          "name": "➤ Ionic discharge cannon - overcharge",
           "type": "ranged",
           "stats": {
             "range": 18,
@@ -3203,7 +3193,7 @@
         },
         {
           "id": "tri-axis-ion-cannon-standard-ranged",
-          "name": "\u27a4 Tri-axis ion cannon - standard",
+          "name": "➤ Tri-axis ion cannon - standard",
           "type": "ranged",
           "stats": {
             "range": 36,
@@ -3220,7 +3210,7 @@
         },
         {
           "id": "tri-axis-ion-cannon-supercharge-ranged",
-          "name": "\u27a4 Tri-axis ion cannon - supercharge",
+          "name": "➤ Tri-axis ion cannon - supercharge",
           "type": "ranged",
           "stats": {
             "range": 36,
@@ -3263,7 +3253,7 @@
         {
           "id": "damaged-1-10-wounds-remaining",
           "name": "Damaged: 1-10 Wounds Remaining",
-          "description": "While this model has 1-10 wounds remaining, subtract 5 from this model\u2019s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+          "description": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ],
       "keywords": [
@@ -3308,7 +3298,7 @@
         },
         {
           "id": "ion-cannon-standard-ranged",
-          "name": "\u27a4 Ion cannon - standard",
+          "name": "➤ Ion cannon - standard",
           "type": "ranged",
           "stats": {
             "range": 60,
@@ -3325,7 +3315,7 @@
         },
         {
           "id": "ion-cannon-overcharge-ranged",
-          "name": "\u27a4 Ion cannon - overcharge",
+          "name": "➤ Ion cannon - overcharge",
           "type": "ranged",
           "stats": {
             "range": 60,
@@ -3496,7 +3486,7 @@
         },
         {
           "id": "ion-cannon-standard-ranged",
-          "name": "\u27a4 Ion cannon - standard",
+          "name": "➤ Ion cannon - standard",
           "type": "ranged",
           "stats": {
             "range": 60,
@@ -3513,7 +3503,7 @@
         },
         {
           "id": "ion-cannon-overcharge-ranged",
-          "name": "\u27a4 Ion cannon - overcharge",
+          "name": "➤ Ion cannon - overcharge",
           "type": "ranged",
           "stats": {
             "range": 60,
@@ -3539,7 +3529,7 @@
         {
           "id": "air-caste-colossus",
           "name": "Air Caste Colossus",
-          "description": "Each time you target this model with a Stratagem, you must spend three times that Stratagem\u2019s stated CP cost to do so."
+          "description": "Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so."
         },
         {
           "id": "damaged-1-20-wounds-remaining",
@@ -3608,7 +3598,7 @@
         {
           "id": "jet-pack-insertion",
           "name": "Jet Pack Insertion",
-          "description": "At the end of your opponent\u2019s Movement phase, one or more units embarked within this TRANSPORT can disembark from it, provided every model in each of those disembarking units has the Deep Strike ability."
+          "description": "At the end of your opponent’s Movement phase, one or more units embarked within this TRANSPORT can disembark from it, provided every model in each of those disembarking units has the Deep Strike ability."
         },
         {
           "id": "damaged-1-9-wounds-remaining",
@@ -3646,7 +3636,7 @@
         {
           "id": "drone-escort",
           "name": "Drone Escort",
-          "description": "Once per turn, in your opponent\u2019s Shooting phase, when a friendly T'AU EMPIRE unit within 6\" of this unit is selected as the target of an attack, one unit from your army with this ability can use it. If it does, after that enemy unit has finished making its attacks, the unit using this ability can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target)."
+          "description": "Once per turn, in your opponent’s Shooting phase, when a friendly T'AU EMPIRE unit within 6\" of this unit is selected as the target of an attack, one unit from your army with this ability can use it. If it does, after that enemy unit has finished making its attacks, the unit using this ability can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target)."
         }
       ],
       "keywords": [
@@ -3806,7 +3796,7 @@
         {
           "id": "outflank",
           "name": "Outflank",
-          "description": "When this unit arrives from Strategic Reserves, it can be set up within your opponent\u2019s deployment zone (all other restrictions still apply)."
+          "description": "When this unit arrives from Strategic Reserves, it can be set up within your opponent’s deployment zone (all other restrictions still apply)."
         }
       ],
       "keywords": [
@@ -3918,7 +3908,7 @@
         },
         {
           "id": "experimental-pulse-submunitions-rifle-emp-ranged",
-          "name": "\u27a4 Experimental pulse submunitions rifle - EMP",
+          "name": "➤ Experimental pulse submunitions rifle - EMP",
           "type": "ranged",
           "stats": {
             "range": 24,
@@ -3935,7 +3925,7 @@
         },
         {
           "id": "experimental-pulse-submunitions-rifle-ionic-cluster-beam-shell-ranged",
-          "name": "\u27a4 Experimental pulse submunitions rifle - ionic cluster-beam shell",
+          "name": "➤ Experimental pulse submunitions rifle - ionic cluster-beam shell",
           "type": "ranged",
           "stats": {
             "range": 24,
@@ -4009,7 +3999,7 @@
         {
           "id": "photon-casters",
           "name": "Photon Casters",
-          "description": "In your Shooting phase, after this unit has shot, if an enemy INFANTRY unit was hit by one or more of those attacks, until the end of your opponent\u2019s next turn, that enemy unit is stunned. While a unit is stunned, subtract 2 from that unit\u2019s Move characteristic, and subtract 2 from Advance and Charge rolls made for that unit."
+          "description": "In your Shooting phase, after this unit has shot, if an enemy INFANTRY unit was hit by one or more of those attacks, until the end of your opponent’s next turn, that enemy unit is stunned. While a unit is stunned, subtract 2 from that unit’s Move characteristic, and subtract 2 from Advance and Charge rolls made for that unit."
         }
       ],
       "keywords": [
@@ -4163,7 +4153,7 @@
         {
           "id": "sunforge",
           "name": "Sunforge",
-          "description": "Each time a model in this unit makes a ranged attack that targets a **^^Monster^^** or **^^Vehicle^^** unit, you can re-roll the Wound roll and you can re-roll the Damage roll."
+          "description": "Each time a model in this unit makes a ranged attack that targets a **Monster** or **Vehicle** unit, you can re-roll the Wound roll and you can re-roll the Damage roll."
         },
         {
           "id": "invulnerable-save-4",
@@ -4811,7 +4801,7 @@
           "name": "Aggressive Mobility",
           "cost": 1,
           "phase": "Movement",
-          "description": "Use in your Movement phase. Select one T'AU EMPIRE unit from your army. That unit can Advance without rolling \u2014 instead, add 6\" to its Move characteristic for this phase."
+          "description": "Use in your Movement phase. Select one T'AU EMPIRE unit from your army. That unit can Advance without rolling — instead, add 6\" to its Move characteristic for this phase."
         },
         {
           "id": "focused-fire",
@@ -4921,7 +4911,7 @@
           "name": "Grav-Inhibitor Field",
           "cost": 1,
           "phase": "Opponent's Charge",
-          "description": "Use in your opponent's Charge phase, when an enemy unit declares a charge against a T'AU EMPIRE BATTLESUIT unit. The charging unit must take a Battle-shock test; additionally roll a D6 for each model in the charging unit \u2014 for each 6, the charging unit suffers 1 mortal wound."
+          "description": "Use in your opponent's Charge phase, when an enemy unit declares a charge against a T'AU EMPIRE BATTLESUIT unit. The charging unit must take a Battle-shock test; additionally roll a D6 for each model in the charging unit — for each 6, the charging unit suffers 1 mortal wound."
         }
       ],
       "enhancements": [
@@ -5167,7 +5157,7 @@
     "Devastating Wounds": "Critical wounds (unmodified wound roll of 6) inflict mortal wounds equal to the Damage characteristic.",
     "Indirect Fire": "Can target units not visible to the bearer. If so, subtract 1 from Hit rolls and the target has the Benefit of Cover.",
     "Ignores Cover": "The target does not receive the Benefit of Cover against this attack.",
-    "Torrent": "Automatically hits \u2014 do not make Hit rolls.",
+    "Torrent": "Automatically hits — do not make Hit rolls.",
     "Melta X": "If target is within half range, increase Damage by X.",
     "Anti-X Y+": "Improve AP by 1 and wound on Y+ against targets with keyword X.",
     "Precision": "If target is an Attached unit, on a 6 to wound, the attacking model can allocate the attack to a CHARACTER model in that unit.",
@@ -5217,7 +5207,7 @@
       },
       {
         "name": "Torrent",
-        "description": "Automatically hits \u2014 do not make Hit rolls."
+        "description": "Automatically hits — do not make Hit rolls."
       },
       {
         "name": "Melta X",

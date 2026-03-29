@@ -324,7 +324,7 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n\n■ Relic Terminator Squad\n■ Deathwing Terminator Squad\n■ Terminator Assault Squad\n■ Terminator Squad",
           "eligibleUnits": [
-            "relic-terminator-squad",
+            "relic-terminator-squad-legends",
             "terminator-assault-squad",
             "terminator-squad",
             "deathwing-terminator-squad"
@@ -354,6 +354,10 @@
             {
               "id": "ranged-combi",
               "name": "Combi-weapon"
+            },
+            {
+              "id": "ranged-none",
+              "name": "Storm Shield"
             }
           ]
         },
@@ -1042,8 +1046,7 @@
             "ap": -1,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "assault-intercessors"
+          "abilities": []
         },
         {
           "id": "heavy-bolt-pistol-ranged",
@@ -1059,8 +1062,7 @@
           },
           "abilities": [
             "Pistol"
-          ],
-          "loadoutGroup": "assault-intercessors"
+          ]
         }
       ],
       "abilities": [
@@ -1131,8 +1133,7 @@
           "abilities": [
             "Assault",
             "Heavy"
-          ],
-          "loadoutGroup": "heavy-intercessors"
+          ]
         },
         {
           "id": "bolt-pistol-ranged",
@@ -1148,8 +1149,7 @@
           },
           "abilities": [
             "Pistol"
-          ],
-          "loadoutGroup": "heavy-intercessors"
+          ]
         },
         {
           "id": "close-combat-weapon-melee",
@@ -1162,8 +1162,7 @@
             "ap": 0,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "heavy-intercessors"
+          "abilities": []
         },
         {
           "id": "heavy-bolter-ranged",
@@ -1270,8 +1269,7 @@
           },
           "abilities": [
             "Heavy"
-          ],
-          "loadoutGroup": "infiltrator"
+          ]
         },
         {
           "id": "bolt-pistol-ranged",
@@ -1287,8 +1285,7 @@
           },
           "abilities": [
             "Pistol"
-          ],
-          "loadoutGroup": "infiltrator"
+          ]
         },
         {
           "id": "close-combat-weapon-melee",
@@ -1301,8 +1298,7 @@
             "ap": 0,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "infiltrator"
+          "abilities": []
         }
       ],
       "abilities": [
@@ -1476,8 +1472,7 @@
           },
           "abilities": [
             "Pistol"
-          ],
-          "loadoutGroup": "tactical-marine"
+          ]
         },
         {
           "id": "close-combat-weapon-melee",
@@ -1490,8 +1485,7 @@
             "ap": 0,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "tactical-marine"
+          "abilities": []
         },
         {
           "id": "boltgun-ranged",
@@ -1505,8 +1499,7 @@
             "ap": 0,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "tactical-marine"
+          "abilities": []
         },
         {
           "id": "twin-lightning-claws-melee",
@@ -1864,8 +1857,7 @@
           "abilities": [
             "Heavy",
             "Precision"
-          ],
-          "loadoutGroup": "scout-snipers"
+          ]
         },
         {
           "id": "missile-launcher-frag-ranged",
@@ -2125,8 +2117,7 @@
             "ap": -1,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "vanguard-veterans-with-jump-packs"
+          "abilities": []
         }
       ],
       "abilities": [
@@ -2194,8 +2185,7 @@
             "ap": -1,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "vanguard-veterans"
+          "abilities": []
         }
       ],
       "abilities": [
@@ -2423,8 +2413,7 @@
           "abilities": [
             "Pistol",
             "Precision"
-          ],
-          "loadoutGroup": "reivers"
+          ]
         }
       ],
       "abilities": [
@@ -2498,8 +2487,7 @@
           },
           "abilities": [
             "Twin-linked"
-          ],
-          "loadoutGroup": "aggressors"
+          ]
         }
       ],
       "abilities": [
@@ -3063,8 +3051,7 @@
           },
           "abilities": [
             "Twin-linked"
-          ],
-          "loadoutGroup": "assault-centurion"
+          ]
         }
       ],
       "abilities": [
@@ -3129,8 +3116,7 @@
             "ap": -1,
             "d": 2
           },
-          "abilities": [],
-          "loadoutGroup": "devastator-centurion"
+          "abilities": []
         }
       ],
       "abilities": [
@@ -4239,8 +4225,7 @@
             "ap": -1,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "outrider"
+          "abilities": []
         },
         {
           "id": "heavy-bolt-pistol-ranged",
@@ -4256,8 +4241,7 @@
           },
           "abilities": [
             "Pistol"
-          ],
-          "loadoutGroup": "outrider"
+          ]
         },
         {
           "id": "twin-bolt-rifle-ranged",
@@ -4273,8 +4257,7 @@
           },
           "abilities": [
             "Twin-linked"
-          ],
-          "loadoutGroup": "outrider"
+          ]
         }
       ],
       "abilities": [
@@ -4737,8 +4720,7 @@
           },
           "abilities": [
             "Heavy"
-          ],
-          "loadoutGroup": "suppressor"
+          ]
         }
       ],
       "abilities": [
@@ -5719,8 +5701,7 @@
           },
           "abilities": [
             "Pistol"
-          ],
-          "loadoutGroup": "desolation-marine"
+          ]
         },
         {
           "id": "close-combat-weapon-melee",
@@ -5733,8 +5714,7 @@
             "ap": 0,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "desolation-marine"
+          "abilities": []
         },
         {
           "id": "castellan-launcher-ranged",
@@ -5751,8 +5731,7 @@
           "abilities": [
             "Blast",
             "Indirect Fire"
-          ],
-          "loadoutGroup": "desolation-marine"
+          ]
         }
       ],
       "abilities": [
@@ -7601,7 +7580,6 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n\n■ Bike Squad\n■ Outrider Squad",
           "eligibleUnits": [
-            "bike-squad",
             "outrider-squad"
           ]
         }
@@ -8329,7 +8307,7 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n\n■ Relic Terminator Squad\n■ Deathwing Terminator Squad\n■ Terminator Assault Squad\n■ Terminator Squad",
           "eligibleUnits": [
-            "relic-terminator-squad",
+            "relic-terminator-squad-legends",
             "terminator-assault-squad",
             "terminator-squad",
             "deathwing-terminator-squad"
@@ -8360,6 +8338,10 @@
             {
               "id": "ranged-combi",
               "name": "Combi-weapon"
+            },
+            {
+              "id": "ranged-none",
+              "name": "Storm Shield"
             }
           ]
         }
@@ -8392,7 +8374,6 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n\n■ Assault Squad with Jump Packs\n■ Vanguard Veteran Squad with Jump Packs",
           "eligibleUnits": [
-            "assault-squad-with-jump-packs",
             "vanguard-veteran-squad-with-jump-packs"
           ]
         }
@@ -8496,6 +8477,7 @@
         "ld": "5+",
         "oc": 1
       },
+      "invuln": "4+",
       "weapons": [
         {
           "id": "storm-bolter-ranged",
@@ -8525,8 +8507,26 @@
             "ap": -1,
             "d": 2
           },
-          "abilities": [],
-          "loadoutGroup": "wargear"
+          "abilities": []
+        }
+      ],
+      "loadoutOptions": [
+        {
+          "id": "ranged-weapon",
+          "name": "Ranged Weapon",
+          "type": "choice",
+          "pattern": "replacement",
+          "choices": [
+            {
+              "id": "ranged-default",
+              "name": "Storm Bolter",
+              "default": true
+            },
+            {
+              "id": "ranged-none",
+              "name": "Storm Shield"
+            }
+          ]
         }
       ],
       "abilities": [
@@ -8631,7 +8631,6 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n\n■ Bike Squad\n■ Outrider Squad",
           "eligibleUnits": [
-            "bike-squad",
             "outrider-squad"
           ]
         }
@@ -9115,7 +9114,7 @@
         {
           "id": "lone-survivor",
           "name": "Lone Survivor",
-          "description": "This model cannot be selected to be your **^^Warlord^^**."
+          "description": "This model cannot be selected to be your **Warlord**."
         }
       ],
       "keywords": [
@@ -9401,8 +9400,7 @@
           },
           "abilities": [
             "Pistol"
-          ],
-          "loadoutGroup": "wargear"
+          ]
         },
         {
           "id": "bolt-rifle-ranged",
@@ -9419,8 +9417,7 @@
           "abilities": [
             "Assault",
             "Heavy"
-          ],
-          "loadoutGroup": "ranged-default"
+          ]
         },
         {
           "id": "close-combat-weapon-melee",
@@ -9590,6 +9587,7 @@
         "ld": "6+",
         "oc": 1
       },
+      "invuln": "4+",
       "weapons": [
         {
           "id": "storm-bolter-ranged",
@@ -9605,8 +9603,7 @@
           },
           "abilities": [
             "Rapid Fire 2"
-          ],
-          "loadoutGroup": "ranged-default"
+          ]
         },
         {
           "id": "power-fist-melee",
@@ -9802,8 +9799,7 @@
           },
           "abilities": [
             "Twin-linked"
-          ],
-          "loadoutGroup": "company-veterans"
+          ]
         }
       ],
       "abilities": [],
@@ -11076,10 +11072,7 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n\n■ Assault Squad\n■ Command Squad\n■ Tactical Squad\n■ Vanguard Veteran Squad\n■ Devastator Squad\n\nYou can attach this model to one of the above units even if one Character model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
           "eligibleUnits": [
-            "assault-squad",
-            "command-squad",
             "tactical-squad",
-            "vanguard-veteran-squad",
             "devastator-squad"
           ]
         }
@@ -11314,7 +11307,6 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n\n■ Bike Squad\n■ Outrider Squad",
           "eligibleUnits": [
-            "bike-squad",
             "outrider-squad"
           ]
         }
@@ -11349,7 +11341,6 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n\n■ Bike Squad\n■ Outrider Squad",
           "eligibleUnits": [
-            "bike-squad",
             "outrider-squad"
           ]
         },
@@ -11389,7 +11380,6 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n\n■ Bike Squad\n■ Outrider Squad",
           "eligibleUnits": [
-            "bike-squad",
             "outrider-squad"
           ]
         },
@@ -11491,7 +11481,6 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n\n■ Bike Squad\n■ Outrider Squad",
           "eligibleUnits": [
-            "bike-squad",
             "outrider-squad"
           ]
         },
@@ -11536,7 +11525,6 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n\n■ Bike Squad\n■ Outrider Squad",
           "eligibleUnits": [
-            "bike-squad",
             "outrider-squad"
           ]
         },
@@ -11720,8 +11708,7 @@
             "ap": -1,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "assault-intercessors-with-jump-pack"
+          "abilities": []
         },
         {
           "id": "heavy-bolt-pistol-ranged",
@@ -11737,8 +11724,7 @@
           },
           "abilities": [
             "Pistol"
-          ],
-          "loadoutGroup": "assault-intercessors-with-jump-pack"
+          ]
         },
         {
           "id": "plasma-pistol-supercharge-ranged",

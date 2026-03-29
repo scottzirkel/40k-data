@@ -160,8 +160,7 @@
           },
           "abilities": [
             "Pistol"
-          ],
-          "loadoutGroup": "beast-snagga-boy"
+          ]
         },
         {
           "id": "choppa-melee",
@@ -174,8 +173,7 @@
             "ap": -1,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "beast-snagga-boy"
+          "abilities": []
         },
         {
           "id": "power-snappa-melee",
@@ -491,7 +489,7 @@
         {
           "id": "leader",
           "name": "Leader",
-          "description": "This model can be attached to the following units:\n- **^^Boyz^^**\n- **^^Lootas^^**\n- **^^Mek Gunz^^**\n- **^^Nobz^^**"
+          "description": "This model can be attached to the following units:\n- **Boyz**\n- **Lootas**\n- **Mek Gunz**\n- **Nobz**"
         }
       ],
       "keywords": [
@@ -1286,8 +1284,7 @@
             "ap": -1,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "default"
+          "abilities": []
         },
         {
           "id": "snazzgun-ranged",
@@ -1304,8 +1301,7 @@
           "abilities": [
             "Heavy",
             "Sustained Hits 1"
-          ],
-          "loadoutGroup": "default"
+          ]
         }
       ],
       "abilities": [
@@ -1423,7 +1419,7 @@
         {
           "id": "supreme-commander",
           "name": "Supreme Commander",
-          "description": "If this unit is in your army, its Ghazghkull Thraka model must be your **^^Warlord^^**."
+          "description": "If this unit is in your army, its Ghazghkull Thraka model must be your **Warlord**."
         },
         {
           "id": "prophet-of-da-great-waaagh",
@@ -1433,7 +1429,7 @@
         {
           "id": "ghazghkull-s-waaagh-banner-aura",
           "name": "Ghazghkull’s Waaagh! Banner (Aura)",
-          "description": "While a friendly **^^Orks^^** unit is within 12\" of Makari, if the Waaagh! is active for your army, melee weapons equipped by models in that unit have the **[LETHAL HITS]** ability."
+          "description": "While a friendly **Orks** unit is within 12\" of Makari, if the Waaagh! is active for your army, melee weapons equipped by models in that unit have the **[LETHAL HITS]** ability."
         }
       ],
       "keywords": [
@@ -2807,7 +2803,7 @@
         {
           "id": "da-bigger-dey-iz",
           "name": "Da Bigger Dey Iz…",
-          "description": "Each time this model makes an attack that targets a **^^Monster^^** or **^^Vehicle^^** unit, add 1 to the Damage characteristic of that attack. Each time this model makes an attack that targets a **^^Titanic^^** unit, add 2 to the Damage characteristic of that attack instead."
+          "description": "Each time this model makes an attack that targets a **Monster** or **Vehicle** unit, add 1 to the Damage characteristic of that attack. Each time this model makes an attack that targets a **Titanic** unit, add 2 to the Damage characteristic of that attack instead."
         },
         {
           "id": "one-last-kill",
@@ -3555,8 +3551,7 @@
           },
           "abilities": [
             "Pistol"
-          ],
-          "loadoutGroup": "stormboy"
+          ]
         },
         {
           "id": "choppa-melee",
@@ -3569,8 +3564,7 @@
             "ap": -1,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "stormboy"
+          "abilities": []
         }
       ],
       "abilities": [
@@ -3652,8 +3646,7 @@
           },
           "abilities": [
             "Blast"
-          ],
-          "loadoutGroup": "tankbusta-w-rokkit-launcha"
+          ]
         },
         {
           "id": "close-combat-weapon-melee",
@@ -3666,8 +3659,7 @@
             "ap": 0,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "tankbusta-w-rokkit-launcha"
+          "abilities": []
         }
       ],
       "abilities": [
@@ -4257,7 +4249,7 @@
         {
           "id": "roar-of-mork-psychic",
           "name": "Roar of Mork (Psychic)",
-          "description": "In your opponent’s Command phase, you can select one enemy unit within 18\" of and visible to this **^^Psyker^^** and roll one D6: on a 1, this **^^Psyker^^**’s unit suffers D3 mortal wounds; on a 2+, until the start of your opponent’s next Command phase, that enemy unit is confrazzled. While a unit is confrazzled, each time a Battle-shock or Leadership test is taken for it, subtract 2 from that test."
+          "description": "In your opponent’s Command phase, you can select one enemy unit within 18\" of and visible to this **Psyker** and roll one D6: on a 1, this **Psyker**’s unit suffers D3 mortal wounds; on a 2+, until the start of your opponent’s next Command phase, that enemy unit is confrazzled. While a unit is confrazzled, each time a Battle-shock or Leadership test is taken for it, subtract 2 from that test."
         }
       ],
       "keywords": [
@@ -6034,7 +6026,7 @@
         {
           "id": "gargantsmasha",
           "name": "Gargantsmasha",
-          "description": "Each time this model makes an attack that targets a **^^Titanic^^* unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+          "description": "Each time this model makes an attack that targets a **Titanic^^* unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
         }
       ],
       "keywords": [
@@ -6145,8 +6137,7 @@
           "abilities": [
             "Anti-Monster 4+",
             "Anti-Vehicle 4+"
-          ],
-          "loadoutGroup": "breaka-boy"
+          ]
         },
         {
           "id": "tankhammer-melee",
