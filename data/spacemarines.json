@@ -965,8 +965,7 @@
           "abilities": [
             "Ignores Cover",
             "Torrent"
-          ],
-          "loadoutGroup": "infernus-marines"
+          ]
         },
         {
           "id": "bolt-pistol-ranged",
@@ -982,8 +981,7 @@
           },
           "abilities": [
             "Pistol"
-          ],
-          "loadoutGroup": "infernus-marines"
+          ]
         },
         {
           "id": "close-combat-weapon-melee",
@@ -996,8 +994,7 @@
             "ap": 0,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "infernus-marines"
+          "abilities": []
         }
       ],
       "abilities": [
@@ -1014,26 +1011,7 @@
         "Tacticus",
         "Infernus Squad"
       ],
-      "loadoutOptions": [
-        {
-          "id": "infernus-sergeant",
-          "name": "Bolt pistol",
-          "type": "optional",
-          "pattern": "addition",
-          "choices": [
-            {
-              "id": "none",
-              "name": "None",
-              "default": true
-            },
-            {
-              "id": "infernus-sergeant",
-              "name": "Bolt pistol + Close combat weapon + Pyreblaster + Terminator Honours upgrade",
-              "maxModels": 1
-            }
-          ]
-        }
-      ],
+      "loadoutOptions": [],
       "invuln": null
     },
     {
@@ -2009,8 +1987,7 @@
           },
           "abilities": [
             "Pistol"
-          ],
-          "loadoutGroup": "bladeguard-veterans"
+          ]
         },
         {
           "id": "plasma-pistol-standard-ranged",
@@ -2076,8 +2053,7 @@
             "ap": -2,
             "d": 2
           },
-          "abilities": [],
-          "loadoutGroup": "bladeguard-veterans"
+          "abilities": []
         }
       ],
       "abilities": [
@@ -2096,19 +2072,24 @@
       ],
       "loadoutOptions": [
         {
-          "id": "bladeguard-veteran-sergeant",
-          "name": "Master-crafted Power Weapon",
+          "id": "sgt-ranged-weapon",
+          "name": "Sergeant Ranged Weapon",
           "type": "optional",
-          "pattern": "addition",
+          "pattern": "replacement",
           "choices": [
             {
               "id": "none",
-              "name": "None",
+              "name": "Heavy Bolt Pistol",
               "default": true
             },
             {
-              "id": "bladeguard-veteran-sergeant",
-              "name": "Master-crafted Power Weapon + Terminator Honours upgrade",
+              "id": "sgt-plasma-pistol",
+              "name": "Plasma Pistol",
+              "maxModels": 1
+            },
+            {
+              "id": "sgt-neo-volkite",
+              "name": "Neo-volkite Pistol",
               "maxModels": 1
             }
           ]
@@ -5272,8 +5253,7 @@
             "ap": 0,
             "d": 1
           },
-          "abilities": [],
-          "loadoutGroup": "hellblaster-sergeant"
+          "abilities": []
         },
         {
           "id": "plasma-incinerator-standard-ranged",
@@ -5290,8 +5270,7 @@
           "abilities": [
             "Assault",
             "Heavy"
-          ],
-          "loadoutGroup": "hellblaster"
+          ]
         },
         {
           "id": "plasma-incinerator-supercharge-ranged",
@@ -5309,8 +5288,7 @@
             "Assault",
             "Heavy",
             "Hazardous"
-          ],
-          "loadoutGroup": "hellblaster"
+          ]
         },
         {
           "id": "bolt-pistol-ranged",
@@ -5326,8 +5304,7 @@
           },
           "abilities": [
             "Pistol"
-          ],
-          "loadoutGroup": "hellblaster"
+          ]
         }
       ],
       "abilities": [
@@ -5346,19 +5323,19 @@
       ],
       "loadoutOptions": [
         {
-          "id": "hellblaster-sergeant",
-          "name": "Close combat weapon",
+          "id": "sgt-ranged-weapon",
+          "name": "Sergeant Ranged Weapon",
           "type": "optional",
-          "pattern": "addition",
+          "pattern": "replacement",
           "choices": [
             {
               "id": "none",
-              "name": "None",
+              "name": "Bolt pistol",
               "default": true
             },
             {
-              "id": "hellblaster-sergeant",
-              "name": "Close combat weapon + Plasma Incinerator + Terminator Honours upgrade",
+              "id": "sgt-plasma-pistol",
+              "name": "Plasma Pistol",
               "maxModels": 1
             }
           ]
