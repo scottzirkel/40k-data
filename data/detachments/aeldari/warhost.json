@@ -1,0 +1,81 @@
+{
+  "name": "Warhost",
+  "rules": [
+    {
+      "id": "martial-grace",
+      "name": "Martial Grace",
+      "description": "At the start of the battle round, you receive 1 additional Battle Focus token.\n\nEach time a unit performs the Swift as the Wind Agile Manoeuvre, add an additional 1\" to the Move characteristic of models in that unit until the end of the phase.\n\nEach time a unit performs an Agile Manoeuvre involving a D6 roll, add 1 to the result.",
+      "type": "passive"
+    }
+  ],
+  "stratagems": [
+    {
+      "id": "lightning-fast-reactions",
+      "name": "Lightning-fast Reactions",
+      "cost": 1,
+      "phase": "Shooting or Fight",
+      "description": "Use in your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets. Target one ASURYANI unit from your army (excluding WRAITH CONSTRUCT units) that was selected as the target of one or more of the attacking unit's attacks. Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
+    },
+    {
+      "id": "feigned-retreat",
+      "name": "Feigned Retreat",
+      "cost": 1,
+      "phase": "Movement",
+      "description": "Use in your Movement phase, just after an ASURYANI unit from your army Falls Back. Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+    },
+    {
+      "id": "blitzing-firepower",
+      "name": "Blitzing Firepower",
+      "cost": 1,
+      "phase": "Shooting",
+      "description": "Use in your Shooting phase, when an ASURYANI unit from your army that has not been selected to shoot this phase is selected to shoot. Until the end of the phase, ranged weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability while targeting an enemy unit within 12\"."
+    },
+    {
+      "id": "fire-and-fade",
+      "name": "Fire and Fade",
+      "cost": 1,
+      "phase": "Shooting",
+      "description": "Use in your Shooting phase, just after an ASURYANI INFANTRY unit from your army (excluding AIRCRAFT, ASURMEN, and WRAITH CONSTRUCT units) has shot. Your unit can make a Normal move of up to D6+1\". Until the end of the turn, your unit is not eligible to declare a charge and cannot embark within a TRANSPORT."
+    },
+    {
+      "id": "skyborne-sanctuary",
+      "name": "Skyborne Sanctuary",
+      "cost": 1,
+      "phase": "Fight",
+      "description": "Use in the Fight phase, when an ASURYANI unit from your army that is eligible to fight is selected as the target of one or more attacks, and there is a friendly TRANSPORT model it could embark within within 6\". If your ASURYANI unit is not within Engagement Range of one or more enemy units and is wholly within 6\" of that TRANSPORT, it can embark within it."
+    },
+    {
+      "id": "webway-tunnel",
+      "name": "Webway Tunnel",
+      "cost": 1,
+      "phase": "Fight",
+      "description": "Use at the end of the Fight phase. Target one ASURYANI INFANTRY unit from your army that is wholly within 9\" of a battlefield edge. If your unit is not within Engagement Range of one or more enemy units, remove it from the battlefield and place it into Strategic Reserves."
+    }
+  ],
+  "enhancements": [
+    {
+      "id": "phoenix-gem",
+      "name": "Phoenix Gem",
+      "points": 35,
+      "description": "ASURYANI model only. The first time the bearer is destroyed, remove it from play, then, at the end of the phase, roll one D6: on a 2+, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining."
+    },
+    {
+      "id": "timeless-strategist",
+      "name": "Timeless Strategist",
+      "points": 15,
+      "description": "ASURYANI model only. At the start of the battle round, if the bearer is on the battlefield (or any TRANSPORT it is embarked within is on the battlefield), you receive 1 additional Battle Focus token."
+    },
+    {
+      "id": "gift-of-foresight",
+      "name": "Gift of Foresight",
+      "points": 15,
+      "description": "ASURYANI model only. Once per battle round, you can target the bearer's unit with the Command Re-roll Stratagem for 0CP."
+    },
+    {
+      "id": "psychic-destroyer",
+      "name": "Psychic Destroyer",
+      "points": 30,
+      "description": "ASURYANI PSYKER model only. Add 1 to the Damage characteristic of ranged Psychic weapons equipped by the bearer."
+    }
+  ]
+}

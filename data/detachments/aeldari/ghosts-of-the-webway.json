@@ -1,0 +1,81 @@
+{
+  "name": "Ghosts of the Webway",
+  "rules": [
+    {
+      "id": "acrobatic-onslaught",
+      "name": "Acrobatic Onslaught",
+      "description": "Each time a HARLEQUINS model from your army makes a Charge move, it can move through enemy models.",
+      "type": "passive"
+    }
+  ],
+  "stratagems": [
+    {
+      "id": "staged-death",
+      "name": "Staged Death",
+      "cost": 1,
+      "phase": "Any",
+      "description": "Use in any phase, just after a HARLEQUINS CHARACTER model from your army is destroyed. At the end of the phase, set your model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with half of its starting number of wounds remaining. Each model can only be targeted by this Stratagem once per battle."
+    },
+    {
+      "id": "heroes-fall",
+      "name": "Heroes' Fall",
+      "cost": 1,
+      "phase": "Fight",
+      "description": "Use in the Fight phase, just after an enemy unit has selected its targets. Target one HARLEQUINS unit from your army that was selected as the target of one or more of those attacks. Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play."
+    },
+    {
+      "id": "mocking-flight",
+      "name": "Mocking Flight",
+      "cost": 1,
+      "phase": "Movement",
+      "description": "Use in your Movement phase, just after a HARLEQUINS unit from your army Falls Back. Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+    },
+    {
+      "id": "tricksters-retort",
+      "name": "Tricksters' Retort",
+      "cost": 1,
+      "phase": "Opponent's Movement",
+      "description": "Use in your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move within 9\" of a TROUPE unit from your army. Your unit can make a Normal move of up to 6\"."
+    },
+    {
+      "id": "bloody-dance",
+      "name": "Bloody Dance",
+      "cost": 1,
+      "phase": "Charge",
+      "description": "Use at the end of your opponent's Charge phase. Target one HARLEQUINS INFANTRY or HARLEQUINS MOUNTED unit from your army that is within 6\" of one or more enemy units and would be eligible to declare a charge. Your unit now declares a charge that only targets one or more of those enemy units, and you resolve that charge. Even if this charge is successful, your unit does not receive any Charge bonus this turn."
+    },
+    {
+      "id": "exit-the-stage",
+      "name": "Exit the Stage",
+      "cost": 1,
+      "phase": "Fight",
+      "description": "Use at the end of the Fight phase. Target one HARLEQUINS unit from your army that is not within Engagement Range of one or more enemy units. Remove your unit from the battlefield and place it into Strategic Reserves."
+    }
+  ],
+  "enhancements": [
+    {
+      "id": "cegorachs-coil",
+      "name": "Cegorach's Coil",
+      "points": 25,
+      "description": "TROUPE MASTER model only. Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer's unit, then roll one D6 for each model in the bearer's unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+    },
+    {
+      "id": "mask-of-secrets",
+      "name": "Mask of Secrets",
+      "points": 15,
+      "description": "HARLEQUINS model only. Each time an enemy unit (excluding MONSTERS and VEHICLES) within Engagement Range of the bearer's unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests."
+    },
+    {
+      "id": "mistweave",
+      "name": "Mistweave",
+      "points": 15,
+      "description": "SHADOWSEER model only. While the bearer is leading a unit, models in that unit have the Infiltrators ability."
+    },
+    {
+      "id": "murders-jest",
+      "name": "Murder's Jest",
+      "points": 20,
+      "description": "DEATH JESTER model only. Each time the bearer makes an attack that targets a unit that is Below Half-strength, each successful Hit roll scores a Critical Hit."
+    }
+  ]
+}

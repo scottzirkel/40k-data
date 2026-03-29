@@ -1,0 +1,81 @@
+{
+  "name": "Aspect Host",
+  "rules": [
+    {
+      "id": "path-of-the-warrior",
+      "name": "Path of the Warrior",
+      "description": "Each time an ASPECT WARRIORS or AVATAR OF KHAINE unit from your army is selected to shoot or fight, select one of the following abilities to apply to models in that unit until the end of the phase:\n\n■ Re-roll Hit rolls of 1.\n■ Re-roll Wound rolls of 1.",
+      "type": "selection"
+    }
+  ],
+  "stratagems": [
+    {
+      "id": "warrior-focus",
+      "name": "Warrior Focus",
+      "cost": 1,
+      "phase": "Shooting or Fight",
+      "description": "Use in your Shooting phase or the Fight phase, when an ASPECT WARRIORS or AVATAR OF KHAINE unit from your army that has not been selected to shoot or fight this phase is selected to shoot or fight. Until the end of the phase, each time a model in your unit makes an attack, you can ignore any or all modifiers to that attack's Ballistic Skill, Weapon Skill, Strength, Armour Penetration and Damage characteristics and/or Hit roll."
+    },
+    {
+      "id": "to-their-final-breath",
+      "name": "To Their Final Breath",
+      "cost": 1,
+      "phase": "Fight",
+      "description": "Use in the Fight phase, just after an enemy unit has selected its targets. Target one ASPECT WARRIORS or AVATAR OF KHAINE unit from your army that was selected as the target of one or more of those attacks. You can remove one Aspect Shrine token from the bearer's unit. Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 if you removed an Aspect Shrine token: on a 4+, do not remove the destroyed model from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+    },
+    {
+      "id": "doom-inescapable",
+      "name": "Doom Inescapable",
+      "cost": 1,
+      "phase": "Shooting",
+      "description": "Use in your Shooting phase, when an AVATAR OF KHAINE model from your army has not been selected to shoot this phase. Until the end of the phase, the AVATAR OF KHAINE's Wailing Doom ranged weapon has a Range characteristic of 18\" and a Damage characteristic of 8."
+    },
+    {
+      "id": "preternatural-precision",
+      "name": "Preternatural Precision",
+      "cost": 1,
+      "phase": "Shooting",
+      "description": "Use in your Shooting phase, when an ASPECT WARRIORS unit from your army that has not been selected to shoot this phase is selected to shoot. You can remove one Aspect Shrine token from your unit. Select one of the following abilities (or two if you removed an Aspect Shrine token) for ranged weapons equipped by models in your unit to gain until the end of the phase: [IGNORES COVER], [LETHAL HITS], or [SUSTAINED HITS 1]."
+    },
+    {
+      "id": "skyborne-sanctuary",
+      "name": "Skyborne Sanctuary",
+      "cost": 1,
+      "phase": "Fight",
+      "description": "Use in the Fight phase, when an ASURYANI unit from your army that is eligible to fight is selected as a target, and there is a friendly TRANSPORT model it could embark within within 6\". If your ASURYANI unit is not within Engagement Range of one or more enemy units and is wholly within 6\" of that TRANSPORT, it can embark within it."
+    },
+    {
+      "id": "khaines-vengeance",
+      "name": "Khaine's Vengeance",
+      "cost": 1,
+      "phase": "Movement",
+      "description": "Use in your Movement phase, when an ASPECT WARRIORS or AVATAR OF KHAINE unit from your army is within Engagement Range of one or more enemy units. All models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests."
+    }
+  ],
+  "enhancements": [
+    {
+      "id": "aspect-of-murder",
+      "name": "Aspect of Murder",
+      "points": 25,
+      "description": "AUTARCH or AUTARCH WAYLEAPER model only. Add 1 to the Damage characteristic of melee weapons equipped by the bearer, and those weapons have the [PRECISION] ability."
+    },
+    {
+      "id": "mantle-of-wisdom",
+      "name": "Mantle of Wisdom",
+      "points": 30,
+      "description": "AUTARCH or AUTARCH WAYLEAPER model only (must be leading an ASPECT WARRIORS unit). While the bearer is leading an ASPECT WARRIORS unit, each time a model in that unit is selected to shoot or fight, apply both Path of the Warrior abilities (re-roll Hit rolls of 1 and re-roll Wound rolls of 1) rather than selecting just one."
+    },
+    {
+      "id": "shimmerstone",
+      "name": "Shimmerstone",
+      "points": 15,
+      "description": "AUTARCH or AUTARCH WAYLEAPER model only (must be leading an ASPECT WARRIORS unit). Each time a ranged attack targets the bearer's unit, subtract 1 from the Wound roll."
+    },
+    {
+      "id": "strategic-savant",
+      "name": "Strategic Savant",
+      "points": 15,
+      "description": "AUTARCH or AUTARCH WAYLEAPER model only (must be leading an ASPECT WARRIORS unit). Add 1 to the Objective Control characteristic of models in the bearer's unit."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Windrider Host",
+  "rules": [
+    {
+      "id": "ride-the-wind",
+      "name": "Ride the Wind",
+      "description": "In the Declare Battle Formations step, you can set up ASURYANI MOUNTED and VYPER units from your army in Reserves.\n\nUnits set up in Reserves using this ability can arrive from Strategic Reserves from the second battle round onwards (treating the current battle round as one higher than it actually is for the purposes of determining when they can arrive).\n\nAt the end of your opponent's turn, you can select a number of ASURYANI MOUNTED or VYPER units from your army that are on the battlefield and are not within Engagement Range of any enemy units (up to 1 unit in Incursion, 2 units in Strike Force, 3 units in Onslaught) and place them into Strategic Reserves.",
+      "type": "passive"
+    }
+  ],
+  "stratagems": [
+    {
+      "id": "death-from-on-high",
+      "name": "Death From On High",
+      "cost": 1,
+      "phase": "Shooting or Fight",
+      "description": "Use in your Shooting phase or the Fight phase, when an ASURYANI MOUNTED or VYPER unit from your army that was set up on the battlefield from Reserves this turn is selected to shoot or fight. Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Wound roll."
+    },
+    {
+      "id": "overflight",
+      "name": "Overflight",
+      "cost": 1,
+      "phase": "Shooting or Fight",
+      "description": "Use in your Shooting phase or the Fight phase, just after an ASURYANI MOUNTED unit from your army has destroyed one or more enemy units this phase. Your unit can make a Normal move of up to 7\"."
+    },
+    {
+      "id": "wind-of-blades",
+      "name": "Wind of Blades",
+      "cost": 1,
+      "phase": "Movement",
+      "description": "Use in your Movement phase, when an ASURYANI MOUNTED or VYPER unit from your army that has not been selected to move this phase is selected to move. Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+    },
+    {
+      "id": "daring-riders",
+      "name": "Daring Riders",
+      "cost": 1,
+      "phase": "Movement",
+      "description": "Use at the start of the Reinforcements step of your Movement phase. Target one ASURYANI MOUNTED or VYPER unit from your army that is currently in Reserves. Set up your unit anywhere on the battlefield that is more than 6\" from all enemy models. If it is set up within 9\" of any enemy models, it cannot declare a charge this turn."
+    },
+    {
+      "id": "focused-firepower",
+      "name": "Focused Firepower",
+      "cost": 1,
+      "phase": "Shooting",
+      "description": "Use in your Shooting phase, when an ASURYANI MOUNTED or VYPER unit from your army that has not been selected to shoot this phase is selected to shoot. Until the end of the phase, each time a model in your unit makes a ranged attack, improve the Armour Penetration characteristic of that attack by 1."
+    },
+    {
+      "id": "spiralling-evasion",
+      "name": "Spiralling Evasion",
+      "cost": 1,
+      "phase": "Opponent's Shooting",
+      "description": "Use in your opponent's Shooting phase, just after an enemy unit has selected its targets. Target one ASURYANI MOUNTED or VYPER unit from your army that was selected as the target of one or more of those attacks. Until the end of the phase, models in your unit have a 4+ invulnerable save."
+    }
+  ],
+  "enhancements": [
+    {
+      "id": "echoes-of-ulthanesh",
+      "name": "Echoes of Ulthanesh",
+      "points": 20,
+      "description": "ASURYANI MOUNTED model only. In your Command phase, roll one D6, adding 1 to the result if the bearer is not within your deployment zone, and adding 1 to the result if the bearer is within your opponent's deployment zone: on a 5+, you gain 1CP."
+    },
+    {
+      "id": "firstdrawn-blade",
+      "name": "Firstdrawn Blade",
+      "points": 10,
+      "description": "ASURYANI MOUNTED model only. Models in the bearer's unit have the Scouts 9\" ability."
+    },
+    {
+      "id": "mirage-field",
+      "name": "Mirage Field",
+      "points": 25,
+      "description": "ASURYANI MOUNTED model only. Each time an attack targets the bearer's unit, subtract 1 from the Hit roll."
+    },
+    {
+      "id": "seersight-strike",
+      "name": "Seersight Strike",
+      "points": 15,
+      "description": "ASURYANI MOUNTED PSYKER model only. Psychic weapons equipped by the bearer have the [ANTI-MONSTER 2+] and [ANTI-VEHICLE 2+] abilities."
+    }
+  ]
+}

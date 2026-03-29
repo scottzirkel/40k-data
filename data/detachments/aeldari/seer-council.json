@@ -1,0 +1,81 @@
+{
+  "name": "Seer Council",
+  "rules": [
+    {
+      "id": "strands-of-fate",
+      "name": "Strands of Fate",
+      "description": "At the start of the first battle round, roll a number of D6 equal to the battle size: 3D6 for Incursion, 6D6 for Strike Force, 9D6 for Onslaught. The results of these dice become your Fate dice pool for the battle.\n\nWhen you use one of the Stratagems listed below, if your Fate dice pool contains a die showing the corresponding Fate dice value, you can discard that die to reduce the CP cost of that Stratagem usage by 1CP. All unspent Fate dice are lost at the end of each battle round.\n\nFate Dice Values:\n■ 1 - Presentiment of Dread\n■ 2 - Forewarned\n■ 3 - Unshrouded Truth\n■ 4 - Fate Inescapable\n■ 5 - Isha's Fury\n■ 6 - Psychic Shield",
+      "type": "passive"
+    }
+  ],
+  "stratagems": [
+    {
+      "id": "presentiment-of-dread",
+      "name": "Presentiment of Dread",
+      "cost": 1,
+      "phase": "Command",
+      "description": "Use in your Command phase. Target one ASURYANI PSYKER model from your army. Select one enemy unit within 18\" of and visible to your model. That enemy unit must take a Battle-shock test, subtracting 1 from that test."
+    },
+    {
+      "id": "forewarned",
+      "name": "Forewarned",
+      "cost": 1,
+      "phase": "Fight",
+      "description": "Use in the Fight phase, just after an enemy unit has selected its targets. Target one ASURYANI INFANTRY unit from your army (excluding WRAITH CONSTRUCT units) that was selected as the target of one or more of those attacks and is within 9\" of a friendly ASURYANI PSYKER model. Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll and subtract 1 from the Wound roll."
+    },
+    {
+      "id": "unshrouded-truth",
+      "name": "Unshrouded Truth",
+      "cost": 1,
+      "phase": "Movement",
+      "description": "Use in your Movement phase. Target one ASURYANI INFANTRY unit from your army (excluding WRAITH CONSTRUCT units) that is within 9\" of a friendly ASURYANI PSYKER model. Remove your unit from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally from all enemy models."
+    },
+    {
+      "id": "fate-inescapable",
+      "name": "Fate Inescapable",
+      "cost": 1,
+      "phase": "Shooting",
+      "description": "Use in your Shooting phase, when an ASURYANI INFANTRY unit from your army (excluding WRAITH CONSTRUCT units) within 9\" of a friendly ASURYANI PSYKER model is selected to shoot. Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability, and each time a model in your unit makes a ranged attack that scores a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
+    },
+    {
+      "id": "ishas-fury",
+      "name": "Isha's Fury",
+      "cost": 1,
+      "phase": "Opponent's Movement",
+      "description": "Use in your opponent's Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of an ASURYANI PSYKER model from your army. Roll six D6: for each result of 3+, that enemy unit suffers 1 mortal wound."
+    },
+    {
+      "id": "psychic-shield",
+      "name": "Psychic Shield",
+      "cost": 1,
+      "phase": "Opponent's Shooting",
+      "description": "Use in your opponent's Shooting phase, just after an enemy unit has selected its targets. Target one ASURYANI INFANTRY unit from your army (excluding WRAITH CONSTRUCT units) that was selected as the target of one or more of those attacks and is within 9\" of a friendly ASURYANI PSYKER model. Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+    }
+  ],
+  "enhancements": [
+    {
+      "id": "lucid-eye",
+      "name": "Lucid Eye",
+      "points": 30,
+      "description": "ASURYANI PSYKER model only. In your Command phase, you can add 1 to or subtract 1 from the value of one Fate dice in your Fate dice pool."
+    },
+    {
+      "id": "runes-of-warding",
+      "name": "Runes of Warding",
+      "points": 25,
+      "description": "ASURYANI PSYKER model only. Models in the bearer's unit have the Feel No Pain 4+ ability against mortal wounds, Psychic Attacks and Critical Wounds caused by attacks with the [DEVASTATING WOUNDS] ability."
+    },
+    {
+      "id": "stone-of-eldritch-fury",
+      "name": "Stone of Eldritch Fury",
+      "points": 15,
+      "description": "ASURYANI PSYKER model only. Add 12\" to the Range characteristic of ranged Psychic weapons equipped by the bearer."
+    },
+    {
+      "id": "torc-of-morai-heg",
+      "name": "Torc of Morai-Heg",
+      "points": 20,
+      "description": "ASURYANI PSYKER model only. Once per turn, when your opponent targets a unit within 12\" of the bearer with a Stratagem, increase the CP cost of that usage by 1CP."
+    }
+  ]
+}

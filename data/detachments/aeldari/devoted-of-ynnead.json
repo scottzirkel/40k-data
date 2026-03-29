@@ -1,0 +1,81 @@
+{
+  "name": "Devoted of Ynnead",
+  "rules": [
+    {
+      "id": "strength-from-death",
+      "name": "Strength from Death",
+      "description": "This detachment rule has three effects:\n\nLethal Intent: At the end of your opponent's Shooting phase, if one or more YNNARI units from your army were destroyed this phase, select one YNNARI INFANTRY or YNNARI MOUNTED unit from your army within 6\" of a unit that was destroyed this phase. That unit can make a Normal move of up to D6+1\".\n\nLethal Surge: Once per turn, when a YNNARI unit from your army performs the Fade Back Agile Manoeuvre, it can make a Lethal Surge move instead of a Normal move. Roll one D6 and add 1: that unit can be moved up to that many inches. When doing so, those models can be moved within Engagement Range of the enemy unit that triggered that Agile Manoeuvre.\n\nLethal Reprisal: At the start of the Fight phase, select one YNNARI unit from your army (excluding TITANIC units) that is Below Half-strength. Until the end of the phase, that unit has the Fights First ability.",
+      "type": "passive"
+    }
+  ],
+  "stratagems": [
+    {
+      "id": "pall-of-dread",
+      "name": "Pall of Dread",
+      "cost": 1,
+      "phase": "Any",
+      "description": "Use in any phase, just after a YNNARI unit from your army is destroyed while it was within range of one or more objective markers that you controlled at the end of the previous phase. Select one of those objective markers. That objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase."
+    },
+    {
+      "id": "macabre-resilience",
+      "name": "Macabre Resilience",
+      "cost": 1,
+      "phase": "Shooting or Fight",
+      "description": "Use in your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets. Target one YNNARI INFANTRY or YNNARI MOUNTED unit from your army (excluding WRAITH CONSTRUCT units) that was selected as the target of one or more of those attacks. Until the end of the phase, subtract 1 from the Wound roll for attacks that target your unit."
+    },
+    {
+      "id": "emissaries-of-ynnead",
+      "name": "Emissaries of Ynnead",
+      "cost": 1,
+      "phase": "Fight",
+      "description": "Use in the Fight phase, when a YNNARI INFANTRY unit from your army is selected to fight. Until the end of the phase, you can re-roll Hit rolls of 1 for attacks made by models in your unit. If your unit is Below Half-strength, you can re-roll all Hit rolls instead."
+    },
+    {
+      "id": "parting-the-veil",
+      "name": "Parting the Veil",
+      "cost": 2,
+      "phase": "Fight",
+      "description": "Use in the Fight phase, just after an enemy unit has selected its targets. Target one YNNARI unit from your army that was selected as the target of one or more of those attacks. Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+    },
+    {
+      "id": "soulsight",
+      "name": "Soulsight",
+      "cost": 1,
+      "phase": "Shooting",
+      "description": "Use in your Shooting phase, when a YNNARI unit from your army that has not been selected to shoot this phase is selected to shoot. Until the end of the phase, ranged weapons equipped by models in your unit have the [LETHAL HITS] and [IGNORES COVER] abilities."
+    },
+    {
+      "id": "death-answers-death",
+      "name": "Death Answers Death",
+      "cost": 1,
+      "phase": "Opponent's Shooting",
+      "description": "Use at the end of your opponent's Shooting phase. Target one YNNARI unit from your army (excluding WRAITH CONSTRUCT units) that had one or more models destroyed this phase. Your unit can shoot as if it were your Shooting phase."
+    }
+  ],
+  "enhancements": [
+    {
+      "id": "borrowed-vigour",
+      "name": "Borrowed Vigour",
+      "points": 10,
+      "description": "ARCHON model only. Add 2 to the Attacks characteristic of melee weapons equipped by the bearer."
+    },
+    {
+      "id": "gaze-of-ynnead",
+      "name": "Gaze of Ynnead",
+      "points": 15,
+      "description": "FARSEER model only. The bearer's Eldritch Storm ranged weapon has the [DEVASTATING WOUNDS] ability."
+    },
+    {
+      "id": "morbid-might",
+      "name": "Morbid Might",
+      "points": 15,
+      "description": "SUCCUBUS model only. Each time the bearer makes a melee attack, you can re-roll the Wound roll."
+    },
+    {
+      "id": "storm-of-whispers",
+      "name": "Storm of Whispers",
+      "points": 10,
+      "description": "WARLOCK model only. After the bearer has shot, select one enemy unit that was hit by one or more of those attacks. That enemy unit must take a Battle-shock test."
+    }
+  ]
+}
