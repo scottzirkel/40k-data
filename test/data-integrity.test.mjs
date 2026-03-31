@@ -8,7 +8,8 @@ import { join, basename } from 'node:path';
 // ---------------------------------------------------------------------------
 
 const DATA_DIR = new URL('../data', import.meta.url).pathname;
-const factionFiles = readdirSync(DATA_DIR).filter(f => f.endsWith('.json'));
+const NON_FACTION_FILES = ['core-glossary.json'];
+const factionFiles = readdirSync(DATA_DIR).filter(f => f.endsWith('.json') && !NON_FACTION_FILES.includes(f));
 
 function loadFaction(filename) {
   return JSON.parse(readFileSync(join(DATA_DIR, filename), 'utf8'));
