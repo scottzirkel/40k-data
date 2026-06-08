@@ -1243,8 +1243,8 @@
       "bsdataId": "70dc-ed18-2788-b35a",
       "name": "Infiltrator Squad",
       "points": {
-        "1": 100,
-        "6": 200
+        "5": 100,
+        "10": 200
       },
       "stats": {
         "m": 6,
@@ -1954,7 +1954,7 @@
       "name": "Bladeguard Veteran Squad",
       "points": {
         "3": 80,
-        "6": 160
+        "6": 170
       },
       "stats": {
         "m": 6,
